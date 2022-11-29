@@ -398,11 +398,11 @@ html{
 }
 
 body{
+   font-family: 'Barlow', 'Arial', sans-serif;
    display: flex;
    flex-direction: column;
    height: 100%;
    margin: 0px;
-   font-family: 'Roboto', sans-serif;
 }
 img{
    max-width: 100%;
