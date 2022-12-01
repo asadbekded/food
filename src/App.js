@@ -1,8 +1,9 @@
+// import { HomeHeader } from "./components";
+
 function App() {
   return (
-    <div className="App">
-      <h1>Start goo</h1>
-    </div>
+    <h1>Gooo one by one</h1>
+    // 1 : HomeHeader  =>  <HomeHeader />
   );
 };
 
