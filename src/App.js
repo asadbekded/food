@@ -1,7 +1,6 @@
 // import { DishCard } from "./components/DishCard/DishCard";
 // import { Statistika } from "./components/Statistika/Statistika";
 // import { SettingsNested } from "./components/SettingsNested/SettingsNested";
-
 // import { DashboardHeader } from "./components/DashboardHeader/DashboardHeader";
 
 function App() {
