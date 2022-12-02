@@ -1,19 +1,18 @@
 // import { HomeHeader } from "./components";
-function App() {
-  return (
-    <h1>Gooo one by one</h1>
-    // 1 : HomeHeader  =>  <HomeHeader />
-// import { DishCard } from "./components/DishCard/DishCard";
-// import { Statistika } from "./components/Statistika/Statistika";
-// import { SettingsNested } from "./components/SettingsNested/SettingsNested";
-// import { DashboardHeader } from "./components/DashboardHeader/DashboardHeader";
+// import { DishCard } from "./components";
+// import { Statistika } from "./components";
+// import { SettingsNested } from "./components";
+// import { SettingsHeader } from "./components";
+// import { DashboardHeader } from "./components";
 function App() {
   return (
     <div className="container">
+      {/* // 1 : HomeHeader  =>  <HomeHeader /> */}
       {/* Dishcard componenta => <DishCard/> */}
-      {/*Statistica componenta  <Statistika/> */}
-      {/*Settings Nested components <SettingsNested/> */}
-      {/*Dashboard header <DashboardHeader/> */}
+      {/*Statistica componenta => <Statistika/> */}
+      {/*Settings Nested => components <SettingsNested/> */}
+      {/* Dashboard header => <DashboardHeader/> */}
+      {/*Settings header => <SettingsHeader/> */}
     </div>
   );
 };

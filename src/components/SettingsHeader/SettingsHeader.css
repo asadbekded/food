@@ -1,0 +1,13 @@
+.settings-header{
+   padding-top: 24px;
+   padding-bottom: 24px;
+   background-color:#252836;
+}
+.settings-logo{
+   font-weight: 600;
+   font-size: 28px;
+   line-height: 140%;
+   color: #FFFFFF;
+   margin: 0px;
+   margin-bottom: 4px;
+}
