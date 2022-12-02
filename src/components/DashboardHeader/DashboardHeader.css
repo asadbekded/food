@@ -1,0 +1,23 @@
+.dash-header{
+   width: 100%;
+   max-width: 646px;
+   padding-top: 24px;
+   padding-bottom: 24px;
+   background-color:#252836;
+   border-bottom: 1px solid #393C49;
+}
+.dash-logo{
+   font-weight: 600;
+   font-size: 28px;
+   line-height: 140%;
+   color: #FFFFFF;
+   margin: 0px;
+   margin-bottom: 4px;
+}
+.dash-text{
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 140%;
+   color: #ABBBC2;
+   margin: 0px;
+}

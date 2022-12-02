@@ -1,0 +1,129 @@
+.nested-list{
+   width: 100%;
+   max-width: 275px;
+   margin: 0px;
+   padding: 0px;
+   list-style: none;
+   background-color: #1F1D2B;
+   border-radius: 8px;
+   padding-bottom: 114px;
+}
+.nested-item{
+   position: relative;
+}
+.nested-link{
+   display: block;
+   padding: 24px 0px 24px 48px;
+}
+.nestedhov{
+   position: relative;
+   display: block;
+   padding: 24px 0px 24px 48px;
+   border-radius: 8px;
+   background-color: #ea7c6942;
+}
+.nestedhov .nested-title{
+   color: #EA7C69;
+}
+.nestedhov::before{
+   position: absolute;
+   width: 4px;
+   height: 39px;
+   background: #EA7C69;
+   border-radius: 30px;
+   top: 26px;
+   right: 0px;
+   content: '';
+}
+.nested-item::before{
+   position: absolute;
+   width: 16px;
+   height: 16px;
+   background-image: url("../../assets/images/Appereance.svg");
+   background-repeat: no-repeat;
+   background-size: auto;
+   top: 25px;
+   left: 26px;
+   content: '';
+}
+.nested-item:nth-child(2)::before{
+   position: absolute;
+   width: 16px;
+   height: 16px;
+   background-image: url("../../assets/images/Restaurant.svg");
+   background-repeat: no-repeat;
+   background-size: auto;
+   top: 25px;
+   left: 26px;
+   content: '';
+}
+.nested-item:nth-child(3)::before{
+   position: absolute;
+   width: 20px;
+   height: 21px;
+   background-image: url("../../assets/images/Discount.svg");
+   background-repeat: no-repeat;
+   background-size: auto;
+   top: 25px;
+   left: 26px;
+   content: '';
+}
+.nested-item:nth-child(4)::before{
+   position: absolute;
+   width: 20px;
+   height: 21px;
+   background-image: url("../../assets/images/Notification.svg");
+   background-repeat: no-repeat;
+   background-size: auto;
+   top: 25px;
+   left: 26px;
+   content: '';
+}
+.nested-item:nth-child(5)::before{
+   position: absolute;
+   width: 20px;
+   height: 21px;
+   background-image: url("../../assets/images/Security.svg");
+   background-repeat: no-repeat;
+   background-size: auto;
+   top: 25px;
+   left: 26px;
+   content: '';
+}
+.nested-item:nth-child(6)::before{
+   position: absolute;
+   width: 20px;
+   height: 21px;
+   background-image: url("../../assets/images/Security.svg");
+   background-repeat: no-repeat;
+   background-size: auto;
+   top: 25px;
+   left: 26px;
+   content: '';
+}
+.nested-item:nth-child(7)::before{
+   position: absolute;
+   width: 20px;
+   height: 21px;
+   background-image: url("../../assets/images/AboutUs.svg");
+   background-repeat: no-repeat;
+   background-size: auto;
+   top: 25px;
+   left: 26px;
+   content: '';
+}
+.nested-title{
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 130%;
+   color: #FFFFFF;
+   margin: 0px;
+   margin-bottom: 4px;
+}
+.nested-text{
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 140%;
+   color: #ABBBC2;
+   margin: 0px;
+}
