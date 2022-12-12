@@ -4,6 +4,10 @@
 // import { SettingsNested } from "./components";
 // import { SettingsHeader } from "./components";
 // import { DashboardHeader } from "./components";
+// import { MostOrder } from "./components";
+// import { TypeOrder } from "./components";
+
+
 function App() {
   return (
     <div className="container">
@@ -13,6 +17,8 @@ function App() {
       {/*Settings Nested => components <SettingsNested/> */}
       {/* Dashboard header => <DashboardHeader/> */}
       {/*Settings header => <SettingsHeader/> */}
+      {/*MostOrder components  <MostOrder/> */}
+      {/*TypeOrder component and Charat <TypeOrder/> */}
     </div>
   );
 };
