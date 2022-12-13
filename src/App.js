@@ -7,6 +7,8 @@
 // import { MostOrder } from "./components";
 // import { TypeOrder } from "./components";
 
+import { Modal } from "./components/Modal/Modal";
+
 
 function App() {
   return (
@@ -19,6 +21,7 @@ function App() {
       {/*Settings header => <SettingsHeader/> */}
       {/*MostOrder components  <MostOrder/> */}
       {/*TypeOrder component and Charat <TypeOrder/> */}
+      <Modal/>
     </div>
   );
 };

@@ -6,5 +6,6 @@ import { DashboardHeader } from "./DashboardHeader";
 import { SettingsHeader } from "./SettingsHeader";
 import { MostOrder } from "./MostOrder";
 import { TypeOrder } from "./TypeOrder";
+import { Modal } from './Modal';
 
-export { HomeHeader, DishCard, Statistika, SettingsNested, DashboardHeader, SettingsHeader, MostOrder, TypeOrder };
+export { HomeHeader, DishCard, Statistika, SettingsNested, DashboardHeader, SettingsHeader, MostOrder, TypeOrder, Modal };

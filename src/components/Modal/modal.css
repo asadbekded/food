@@ -1,0 +1,115 @@
+.modal-overlay{
+   position: fixed;
+   top: 0px;
+   left: 0px;
+   right: 0px;
+   bottom: 0px;
+   display: flex;
+   align-items: flex-start;
+   justify-content: right;
+   background-color: #000000b3;
+}
+.modal-content{
+   width: 405px;
+   padding: 64px 24px 24px 24px;
+   border-radius: 16px 16px 0px 16px;
+   background-color: #1F1D2B;
+}
+.modal-header{
+   padding-bottom: 24px;
+   border-bottom: 1px solid #393C49;
+}
+.modal-title{
+   font-weight: 600;
+   font-size: 28px;
+   line-height: 140%;
+   color: #FFFFFF;
+   margin: 0px;
+}
+.modal-text{
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 140%;
+   color: #ABBBC2;
+   margin: 0px;
+   margin-top: 8px;
+}
+.payme-title{
+   margin: 0px;
+   margin-top: 24px;
+   margin-bottom: 16px;
+   font-weight: 600;
+   font-size: 20px;
+   line-height: 140%;
+   color: #FFFFFF;
+}
+.payme-list{
+   display: flex;
+   align-items: center;
+   margin: 0px;
+   padding: 0px;
+   list-style: none;
+}
+.payme-item{
+   position: relative;
+   width: 100%;
+   max-width: 101px;
+   text-align: center;
+   border: 1px solid #ABBBC2;
+   border-radius: 8px;
+   padding: 36px 14px 10px 14px;
+}
+.payme-item::before{
+   position: absolute;
+   width: 24px;
+   height: 24px;
+   background-image: url("../../assets/images/Card.svg");
+   background-repeat: no-repeat;
+   background-size: auto;
+   top: 6px;
+   left:38px;
+   content: '';
+}
+.payme-item:nth-child(2):before{
+   position: absolute;
+   width: 24px;
+   height: 24px;
+   background-image: url("../../assets/images/Paypal.svg");
+   background-repeat: no-repeat;
+   background-size: auto;
+   top: 6px;
+   left:38px;
+   content: '';
+}
+.payme-item:nth-child(3):before{
+   position: absolute;
+   width: 24px;
+   height: 24px;
+   background-image: url("../../assets/images/Wallet.svg");
+   background-repeat: no-repeat;
+   background-size: auto;
+   top: 6px;
+   left:38px;
+   content: '';
+}
+.payme-item:nth-child(1)::after{
+   position: absolute;
+   width: 16px;
+   height: 16px;
+   background-image: url("../../assets/images/checkmark-circle.svg");
+   background-repeat: no-repeat;
+   background-size: auto;
+   top: 4px;
+   right: 6px;
+   content: '';
+}
+.payme-item + .payme-item {
+   margin-left: 8px;
+}
+.payme-text{
+   margin: 0px;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 130%;
+   color: #fff;
+}
