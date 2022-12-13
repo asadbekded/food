@@ -4,5 +4,8 @@ import { Statistika } from "./Statistika";
 import { SettingsNested } from "./SettingsNested";
 import { DashboardHeader } from "./DashboardHeader";
 import { SettingsHeader } from "./SettingsHeader";
-
-export { HomeHeader, DishCard, Statistika, SettingsNested, DashboardHeader, SettingsHeader };
+import { PricebarFooter } from "./PricebarFooter";
+import { PricebarHeader } from "./PricebarHeader";
+import { Orders } from "./Orders";
+import { Sidebar } from "./SIdebar/Sidebar";
+export { HomeHeader, DishCard, Statistika, SettingsNested, DashboardHeader, SettingsHeader, PricebarFooter, PricebarHeader, Orders, Sidebar };

@@ -4,8 +4,12 @@
 // import { SettingsNested } from "./components";
 // import { SettingsHeader } from "./components";
 // import { DashboardHeader } from "./components";
-
-import { PricebarHeader, PricebarHEader } from "./components/PricebarHEader/PricebarHeader";
+// import { PricebarFooter } from "./components/PricebarFooter/PricebarFooter";
+// import { PricebarHeader, PricebarHEader } from "./components/PricebarHeader";
+// import { Orders, Sidebar } from "./components";
+// import { PricebarFooter } from "./components/PricebarFooter/PricebarFooter";
+import './App.css';
+import { Orders } from './components/Orders/Orders';
 
 function App() {
   return (
@@ -16,7 +20,10 @@ function App() {
       {/*Settings Nested => components <SettingsNested/> */}
       {/* Dashboard header => <DashboardHeader/> */}
       {/*Settings header => <SettingsHeader/> */}
-      <PricebarHeader></PricebarHeader>
+      {/* <PricebarHeader></PricebarHeader> */}
+      {/* <PricebarFooter /> */}
+      {/* <Sidebar /> */}
+      {/* <Orders /> */}
     </div>
   );
 };
