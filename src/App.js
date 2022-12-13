@@ -6,8 +6,7 @@
 // import { DashboardHeader } from "./components";
 // import { MostOrder } from "./components";
 // import { TypeOrder } from "./components";
-
-import { Modal } from "./components/Modal/Modal";
+// import { Modal } from "./components/Modal/Modal";
 
 
 function App() {
@@ -21,7 +20,7 @@ function App() {
       {/*Settings header => <SettingsHeader/> */}
       {/*MostOrder components  <MostOrder/> */}
       {/*TypeOrder component and Charat <TypeOrder/> */}
-      <Modal/>
+      {/*Modal component  <Modal/> */}
     </div>
   );
 };

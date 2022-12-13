@@ -5,10 +5,21 @@ import './modal.css';
 export const Modal = () => {
 
    const nameRef = useRef()
+   const phoneRef = useRef()
+   const dateRef = useRef()
+   const passwordRef = useRef()
+   const selRef = useRef()
+   const numRef = useRef()
+
 
    const handleFormSubmit = (evt) => {
       evt.preventDefault()
       console.log(nameRef.current.value);
+      console.log(phoneRef.current.value);
+      console.log(dateRef.current.value);
+      console.log(passwordRef.current.value);
+      console.log(selRef.current.value);
+      console.log(numRef.current.value);
    }
 
   return (
@@ -33,8 +44,43 @@ export const Modal = () => {
             </ul>
 
             <form onSubmit={handleFormSubmit}>
-               <Input ref={nameRef} placeholder="Name"/>
-               <button type='submit'>Send</button>
+               <div className='form-content'>
+                 <label className='modal-label' for='card_name'>Cardholder Name</label>
+                 <Input type='text' className='modal-inp' id='card_name' name='card_name' ref={nameRef}/> 
+               </div>
+               <div className='form-content'>
+                 <label className='modal-label' for='card_num'>Card Number</label>
+                 <Input type='tel' defaultValue='+998' className='modal-inp' id='card_num' name='card_number' ref={phoneRef}/>
+               </div>    
+               <div className='date-box'>
+                  <div className='form-content hero-date'>
+                    <label className='modal-label' for='card_date'>Expiration Date</label>
+                    <Input type='date' className='modal-inp' id='card_date' name='card_date' ref={dateRef}/> 
+                  </div>
+                  <div className='form-content'>
+                    <label className='modal-label' for='card_pass'>CVV</label>
+                    <Input type='password' className='modal-inp' id='card_pass' name='card_password' ref={passwordRef}/> 
+                  </div>   
+               </div>   
+               <div className='sel-box'>
+                  <div className='form-content'>
+                    <label className='modal-label' for='card_order'>Order Type</label>
+                    <select id='card_order' name='card_order' className='modal-sel' ref={selRef}>
+                       <option value="DineIn">Dine In</option>
+                       <option value="ToGo">To Go</option>
+                       <option value="Delivery">Delivery</option>
+                     </select>
+                  </div>
+                  <div className='form-content'>
+                    <label className='modal-label' for='card_table'>Table no.</label>
+                    <Input type='number' className='modal-inp' id='card_table' name='card_table' ref={numRef}/> 
+                  </div>   
+               </div>     
+
+               <div className='modalbtn-box'>
+                  <button className='exit-btn' type='button'>Cancel</button>
+                  <button className='modal-btn' type='submit'>Confirm Payment</button>
+               </div>               
             </form>
          </div>
       </div>
