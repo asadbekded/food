@@ -4,6 +4,9 @@
 // import { SettingsNested } from "./components";
 // import { SettingsHeader } from "./components";
 // import { DashboardHeader } from "./components";
+
+import { PricebarHeader, PricebarHEader } from "./components/PricebarHEader/PricebarHeader";
+
 function App() {
   return (
     <div className="container">
@@ -13,6 +16,7 @@ function App() {
       {/*Settings Nested => components <SettingsNested/> */}
       {/* Dashboard header => <DashboardHeader/> */}
       {/*Settings header => <SettingsHeader/> */}
+      <PricebarHeader></PricebarHeader>
     </div>
   );
 };
