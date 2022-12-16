@@ -7,5 +7,8 @@ import { SettingsHeader } from "./SettingsHeader";
 import { MostOrder } from "./MostOrder";
 import { TypeOrder } from "./TypeOrder";
 import { Modal } from './Modal';
+import { ProductsManagement } from "./ProductsManagement";
+import { FoodFilter } from "./FoodFilter";
+import { SelectedDishes } from "./SelectedDishes";
 
-export { HomeHeader, DishCard, Statistika, SettingsNested, DashboardHeader, SettingsHeader, MostOrder, TypeOrder, Modal };
+export { HomeHeader, DishCard, Statistika, SettingsNested, DashboardHeader, SettingsHeader, MostOrder, TypeOrder, Modal, ProductsManagement, FoodFilter, SelectedDishes };

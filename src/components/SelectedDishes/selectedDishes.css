@@ -1,0 +1,17 @@
+.selectedd-content{
+   background-color: #2D303E;
+}
+.selectedd-list{
+   margin: 0px;
+   padding: 0px;
+   list-style: none;
+}
+.selectedd-item{
+   width: 297px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.spice-box{
+   display: flex;
+}
