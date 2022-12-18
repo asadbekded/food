@@ -22,7 +22,7 @@ export const SelectedDishes = () => {
                </div>
                <div>
                  <Input type='text' placeholder='Please, just a little bit spicy only.'/>
-                 <button>Send</button>
+                 <button></button>
                </div>
             </div>
          </li>
