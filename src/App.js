@@ -1,4 +1,4 @@
-// import { HomeHeader } from "./components";
+// import { AddDishes, Sidebar } from "./components";
 // import { DishCard } from "./components";
 // import { Statistika } from "./components";
 // import { SettingsNested } from "./components";
@@ -14,7 +14,7 @@ import { Orders } from './components/Orders/Orders';
 function App() {
   return (
     <div className="container">
-      {/* // 1 : HomeHeader  =>  <HomeHeader /> */}
+      {/* <HomeHeader /> */}
       {/* Dishcard componenta => <DishCard/> */}
       {/*Statistica componenta => <Statistika/> */}
       {/*Settings Nested => components <SettingsNested/> */}
@@ -24,6 +24,7 @@ function App() {
       {/* <PricebarFooter /> */}
       {/* <Sidebar /> */}
       {/* <Orders /> */}
+      {/* <AddDishes /> */}
     </div>
   );
 };

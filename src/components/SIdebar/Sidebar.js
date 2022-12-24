@@ -6,7 +6,7 @@ import LogoFivth from '../../assets/images/sidebar/Logo-five.svg';
 import LogoSix from '../../assets/images/sidebar/Logo-six.svg';
 import LogoSeven from '../../assets/images/sidebar/Logo-seven.svg';
 import LogoEight from '../../assets/images/sidebar/Logo-eight.svg';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import './sidebar.css'
 
 export const Sidebar = () => {
@@ -28,9 +28,9 @@ export const Sidebar = () => {
                 {
                     Menu.map((item, index) => (
                         <li className='sidebar__list__item' key={index}>
-                            <NavLink to={item.page}>
+                            <Link to={item.page}>
                                 <img src={item.src} width='30' />
-                            </NavLink>
+                            </Link>
                         </li>
                     ))
                 }
