@@ -1,4 +1,3 @@
-import { HomeHeader } from "./HomeHeader/HomeHeader";
 import { DishCard } from "./DishCard";
 import { Statistika } from "./Statistika";
 import { SettingsNested } from "./SettingsNested";
