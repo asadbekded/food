@@ -43,13 +43,14 @@
 
 .res__btn {
   width: 361px;
-  background: #ea7c69;
-  box-shadow: 0px 8px 24px rgba(234, 124, 105, 0.3);
-  border-radius: 8px;
+  margin-bottom: 24px;
+  padding: 14px;
   font-weight: 600;
   font-size: 14px;
   line-height: 140%;
   color: #fafafa;
-  padding: 14px;
+  background: #ea7c69;
+  box-shadow: 0px 8px 24px rgba(234, 124, 105, 0.3);
+  border-radius: 8px;
   border: none;
 }

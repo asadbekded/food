@@ -1,5 +1,4 @@
-import { FoodFilter, HomeHeader, SelectedDishes, Sidebar } from '../../components';
-import { Orders } from '../../components/Orders';
+import { FoodFilter, HomeHeader, PricebarFooter, SelectedDishes, Sidebar } from '../../components';
 import { PricebarHeader } from '../../components/PricebarHeader';
 import './Home.css';
 
@@ -11,12 +10,15 @@ export const Home = () => {
           <Sidebar />
         </div>
         <div className='content__resto'>
-          <HomeHeader />
+          <div className='homeFixed'>
+            <HomeHeader />
+          </div>
           <FoodFilter />
         </div>
         <div className='content__orders'>
           <PricebarHeader />
           <SelectedDishes />
+          <PricebarFooter />
         </div>
       </div>
     </>

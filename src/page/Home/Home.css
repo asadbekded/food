@@ -4,10 +4,12 @@ body {
 
 .content {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 
 .content__orders {
+  position: fixed;
+  right: 0;
   width: 100%;
   max-width: 409px;
   padding: 24px;
@@ -16,10 +18,19 @@ body {
 }
 
 .content__resto {
-  width: 100%;
-  padding: 14px 38px 0 10px;
+  width: 1010px;
+  padding: 104px 38px 0 10px;
 }
 
 .content__sidebar {
-  width: 160px;
+  width: 105px;
+}
+
+.homeFixed {
+  position: fixed;
+  top: 0px;
+  width: 963px;
+  padding: 20px 0 0 0;
+  background-color: #252836ff;
+  z-index: 11;
 }

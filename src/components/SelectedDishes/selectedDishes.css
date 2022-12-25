@@ -1,17 +1,14 @@
-.selectedd-content {
-  background: #1f1d2b;
-  padding: 50px;
-}
 .selectedd-list {
   margin: 0px;
   padding: 0px;
   list-style: none;
 }
 .selectedd-item {
-  width: 100%;
-  max-width: 360px;
   display: flex;
   align-items: center;
+  margin-bottom: 24px;
+  width: 100%;
+  max-width: 360px;
 }
 .spice-box {
   display: flex;
@@ -76,4 +73,13 @@
   border-radius: 8px;
   padding: 14px 16px;
   background-color: transparent;
+}
+
+.spice-content {
+  width: 100%;
+}
+
+.spice-allBox {
+  display: flex;
+  align-items: center;
 }
