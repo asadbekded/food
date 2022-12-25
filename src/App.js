@@ -8,8 +8,8 @@
 // import { PricebarHeader, PricebarHEader } from "./components/PricebarHeader";
 // import { Orders, Sidebar } from "./components";
 // import { PricebarFooter } from "./components/PricebarFooter/PricebarFooter";
+// import { Orders } from './components/Orders/Orders';
 import './App.css';
-import { Orders } from './components/Orders/Orders';
 
 function App() {
   return (
