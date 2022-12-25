@@ -10,3 +10,11 @@ import { Orders } from "./Orders";
 import { Sidebar } from "./SIdebar/Sidebar";
 import { AddDishes } from "./AddDishes/AddDishes";
 export { HomeHeader, DishCard, Statistika, SettingsNested, DashboardHeader, SettingsHeader, PricebarFooter, PricebarHeader, Orders, Sidebar, AddDishes };
+import { MostOrder } from "./MostOrder";
+import { TypeOrder } from "./TypeOrder";
+import { Modal } from './Modal';
+import { ProductsManagement } from "./ProductsManagement";
+import { FoodFilter } from "./FoodFilter";
+import { SelectedDishes } from "./SelectedDishes";
+
+export { HomeHeader, DishCard, Statistika, SettingsNested, DashboardHeader, SettingsHeader, MostOrder, TypeOrder, Modal, ProductsManagement, FoodFilter, SelectedDishes };
