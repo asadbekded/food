@@ -1,0 +1,32 @@
+.sidebar__list {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 30px;
+  height: 100vh;
+  margin: 0;
+  padding: 14px 0;
+  list-style: none;
+  width: 104px;
+  background: #1f1d2b;
+  border-radius: 0 16px 16px 0;
+}
+
+.sidebar__list__item {
+  padding: 12px 41px 11px 12px;
+  /* background-color: red; */
+}
+
+.sidebar__list__item:first-child img {
+  width: 45px !important;
+}
+
+.sidebar__list__item:first-child {
+  padding-right: 30px;
+}
+
+.sidebar__list__item:last-child {
+  margin-top: auto;
+  display: block;
+}

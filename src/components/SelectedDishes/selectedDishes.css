@@ -1,79 +1,79 @@
-.selectedd-content{
-   background: #1F1D2B;
-   padding: 50px;
+.selectedd-content {
+  background: #1f1d2b;
+  padding: 50px;
 }
-.selectedd-list{
-   margin: 0px;
-   padding: 0px;
-   list-style: none;
+.selectedd-list {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
 }
-.selectedd-item{
-   width: 100%;
-   max-width: 360px;
-   display: flex;
-   align-items: center;
+.selectedd-item {
+  width: 100%;
+  max-width: 360px;
+  display: flex;
+  align-items: center;
 }
-.spice-box{
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
+.spice-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.fill-box{
-   margin-left: 5px;
+.fill-box {
+  margin-left: 5px;
 }
-.spice-text{
-   font-weight: 500;
-   font-size: 14px;
-   line-height: 130%;
-   color: #FFFFFF;
-   margin: 0px;
+.spice-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 130%;
+  color: #ffffff;
+  margin: 0px;
 }
-.spice-ins{
-   font-weight: 500;
-   font-size: 12px;
-   line-height: 140%;
-   color: #ABBBC2;
-   margin: 0px;
+.spice-ins {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 140%;
+  color: #abbbc2;
+  margin: 0px;
 }
-.spice-num{
-   font-weight: 500;
-   font-size: 16px;
-   line-height: 140%;
-   color: #FFFFFF;
-   padding: 10px 16px;
-   background: #2D303E;
-   border: 1px solid #393C49;
-   border-radius: 8px;
+.spice-num {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  color: #ffffff;
+  padding: 10px 16px;
+  background: #2d303e;
+  border: 1px solid #393c49;
+  border-radius: 8px;
 }
-.spice-price{
-   font-weight: 500;
-   font-size: 16px;
-   line-height: 140%;
-   color: #FFFFFF;
-   margin-left: 21px;
+.spice-price {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  color: #ffffff;
+  margin-left: 21px;
 }
-.spice-inp{
-   width: 100%;
-   max-width: 297px;
-   padding: 14px;
-   font-weight: 400;
-   font-size: 14px;
-   line-height: 140%;
-   color: #E0E6E9;
-   background: #2D303E;
-   border: 1px solid #393C49;
-   border-radius: 8px;
-   outline: none;
+.spice-inp {
+  width: 100%;
+  max-width: 297px;
+  padding: 14px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  color: #e0e6e9;
+  background: #2d303e;
+  border: 1px solid #393c49;
+  border-radius: 8px;
+  outline: none;
 }
-.spicehero-box{
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
-   margin-top: 10px;
+.spicehero-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
 }
-.spicedel-btn{
-   border: 1px solid #FF7CA3;
-   border-radius: 8px;
-   padding: 14px 16px;
-   background-color: transparent;
+.spicedel-btn {
+  border: 1px solid #ff7ca3;
+  border-radius: 8px;
+  padding: 14px 16px;
+  background-color: transparent;
 }

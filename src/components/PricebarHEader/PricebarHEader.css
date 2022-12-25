@@ -1,0 +1,33 @@
+.orders {
+}
+
+.orders__title {
+  margin: 0 0 24px 0;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 140%;
+  color: #ffffff;
+}
+
+.orders__boxLink {
+  display: flex;
+  gap: 8px;
+}
+
+.orders__active {
+  padding: 7px 12px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 140%;
+  color: #ffffff;
+  background: #ea7c69;
+  border-radius: 8px;
+}
+
+.orders__link {
+  padding: 7px 12px;
+  color: #ea7c69;
+  background: #1f1d2b;
+  border: 1px solid #393c49;
+  border-radius: 8px;
+}

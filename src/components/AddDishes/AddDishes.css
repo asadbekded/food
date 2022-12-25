@@ -1,0 +1,121 @@
+.add {
+  background-color: #1f1d2bff;
+  padding: 24px;
+}
+
+.add__list {
+  display: flex;
+  align-items: stretch;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  gap: 16px;
+}
+
+.add__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  width: 221px;
+  text-align: center;
+  border: 1px dashed #ea7c69;
+  border-radius: 8px;
+}
+
+.dishes__item {
+  width: 221px;
+  text-align: center;
+  border: 1px solid #393c49;
+  border-radius: 10px;
+}
+
+.dishes__box {
+  padding: 30px 30px 16px 30px;
+}
+
+.dishes__img {
+  margin-bottom: 16px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.add__btn {
+  border: none;
+  background-color: transparent;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  color: #ea7c69;
+}
+
+.add__btn::before {
+  display: block;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+  background-image: url("../../assets//images//AddDishes//Add.svg");
+  content: "";
+}
+
+.dishes__title {
+  margin: 0 0 7px 0;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 130%;
+  text-align: center;
+  color: #ffffff;
+}
+
+.dishes__cost {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.dishes__price {
+  text-align: center;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  text-align: center;
+  color: #abbbc2;
+}
+
+.dishes__bowl {
+  text-align: center;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  text-align: center;
+  color: #abbbc2;
+}
+
+.dishes__edit {
+  padding: 16px;
+  background: #50343aff;
+  border-radius: 0px 0px 8px 8px;
+}
+
+.dishes__editBtn {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 140%;
+  color: #ea7c69;
+  border: none;
+  background-color: transparent;
+}
