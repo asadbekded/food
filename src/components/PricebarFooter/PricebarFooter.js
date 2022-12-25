@@ -1,6 +1,10 @@
+import { useState } from "react";
+import { Modal } from "../Modal";
 import "./PricebarFooter.css";
 
 export const PricebarFooter = () => {
+    const [modal, setModal] = useState(false);
+
     return (
         <>
             <div className="res">
@@ -12,7 +16,10 @@ export const PricebarFooter = () => {
                     Sub total
                     <span className="res__totalRes"> $ 21,03</span>
                 </div>
-                <button className="res__btn">Continue to Payment</button>
+                <button type="button" onClick={() => setModal(true)} className="res__btn">Continue to Payment</button>
+                {
+                    modal && <Modal modal={modal} setModal={setModal} />
+                }
             </div>
         </>
     )

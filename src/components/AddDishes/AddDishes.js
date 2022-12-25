@@ -1,8 +1,5 @@
 import './AddDishes.css';
-import Add from '../../assets/images/AddDishes/Add.svg';
-import Edit from '../../assets/images/AddDishes/Edits.svg';
 import Pizza from '../../assets/images/AddDishes/Image 1.svg';
-import { click } from '@testing-library/user-event/dist/click';
 
 export const AddDishes = () => {
     return (

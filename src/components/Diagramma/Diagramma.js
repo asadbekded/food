@@ -24,6 +24,7 @@ const ApexChart = () => {
                      show: true,
                      label: 'Total',
                      formatter: function (w) {
+                        console.log(setState);
                         return 264
                      }
                   }

@@ -1,27 +1,23 @@
 import './App.css';
-import { Sidebar } from "./components";
+import { Route, Routes } from 'react-router-dom';
 import { Home } from './page/Home/Home';
-// import { DishCard } from "./components";
-// import { Statistika } from "./components";
-// import { SettingsNested } from "./components";
-// import { SettingsHeader } from "./components";
-// import { DashboardHeader } from "./components";
-// import { PricebarFooter } from "./components/PricebarFooter/PricebarFooter";
-// import { PricebarHeader, PricebarHEader } from "./components/PricebarHeader";
-// import { Orders, Sidebar } from "./components";
-// import { PricebarFooter } from "./components/PricebarFooter/PricebarFooter";
-// import { Orders } from './components/Orders/Orders';
-// import { MostOrder } from "./components";
-// import { TypeOrder } from "./components";
-// import { Modal } from "./components";
-// import { ProductsManagement } from "./components";
-// import { FoodFilter } from "./components";
-// import { SelectedDishes } from "./components";
+import { Settings } from './page/Setting/Setting';
+import { Dashbord } from './page/Dashbord/Dashbord'
+import { Sidebar } from './components';
 
 function App() {
   return (
     <>
-      <Home />
+      <div className='content'>
+        <div className='content__sidebar'>
+          <Sidebar />
+        </div>
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/dashboard' element={<Dashbord />} />
+          <Route path='/settings' element={<Settings />} />
+        </Routes>
+      </div>
     </>
   );
 };

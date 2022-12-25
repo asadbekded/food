@@ -16,4 +16,4 @@ import { ProductsManagement } from "./ProductsManagement";
 import { FoodFilter } from "./FoodFilter";
 import { SelectedDishes } from "./SelectedDishes";
 
-export { PricebarFooter, HomeHeader, DishCard, Statistika, SettingsNested, DashboardHeader, SettingsHeader, MostOrder, TypeOrder, Modal, ProductsManagement, FoodFilter, SelectedDishes, Sidebar };
+export { Orders, PricebarHeader, AddDishes, PricebarFooter, HomeHeader, DishCard, Statistika, SettingsNested, DashboardHeader, SettingsHeader, MostOrder, TypeOrder, Modal, ProductsManagement, FoodFilter, SelectedDishes, Sidebar };

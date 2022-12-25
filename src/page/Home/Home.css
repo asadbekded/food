@@ -22,9 +22,6 @@ body {
   padding: 104px 38px 0 10px;
 }
 
-.content__sidebar {
-  width: 105px;
-}
 
 .homeFixed {
   position: fixed;
@@ -32,5 +29,5 @@ body {
   width: 963px;
   padding: 20px 0 0 0;
   background-color: #252836ff;
-  z-index: 11;
+  z-index: 2;
 }
