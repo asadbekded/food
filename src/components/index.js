@@ -7,7 +7,7 @@ import { SettingsHeader } from "./SettingsHeader";
 import { PricebarFooter } from "./PricebarFooter";
 import { PricebarHeader } from "./PricebarHeader";
 import { Orders } from "./Orders";
-import { Sidebar } from "./Sidebar/Sidebar";
+import { Sidebar } from "./SIdebar/Sidebar";
 import { AddDishes } from "./AddDishes/AddDishes";
 import { MostOrder } from "./MostOrder";
 import { TypeOrder } from "./TypeOrder";
@@ -17,3 +17,4 @@ import { FoodFilter } from "./FoodFilter";
 import { SelectedDishes } from "./SelectedDishes";
 
 export { Orders, PricebarHeader, AddDishes, PricebarFooter, HomeHeader, DishCard, Statistika, SettingsNested, DashboardHeader, SettingsHeader, MostOrder, TypeOrder, Modal, ProductsManagement, FoodFilter, SelectedDishes, Sidebar };
+export { PricebarFooter, HomeHeader, DishCard, Statistika, SettingsNested, DashboardHeader, SettingsHeader, MostOrder, TypeOrder, Modal, ProductsManagement, FoodFilter, SelectedDishes, Sidebar,PricebarHeader,AddDishes,Orders };

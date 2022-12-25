@@ -1,4 +1,9 @@
 import { FoodFilter, HomeHeader, PricebarFooter, SelectedDishes } from '../../components';
+
+import { FoodFilter, HomeHeader, SelectedDishes, Sidebar } from '../../components';
+
+import { FoodFilter, HomeHeader, PricebarFooter, SelectedDishes, Sidebar } from '../../components';
+
 import { PricebarHeader } from '../../components/PricebarHeader';
 import './Home.css';
 
