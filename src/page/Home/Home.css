@@ -1,0 +1,25 @@
+body {
+  background-color: #252836ff;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content__orders {
+  width: 100%;
+  max-width: 409px;
+  padding: 24px;
+  background-color: #1f1d2b;
+  border-radius: 8px 0 0 8px;
+}
+
+.content__resto {
+  width: 100%;
+  padding: 14px 38px 0 10px;
+}
+
+.content__sidebar {
+  width: 160px;
+}

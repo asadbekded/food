@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 24px;
 }
 
 .home__headerBox__title {
@@ -9,7 +10,7 @@
   margin: 0 0 4px 0;
   font-size: 28px;
   line-height: 140%;
-  color: rgb(0, 0, 0);
+  color: #fff;
 }
 
 .home__headerBox__text {
@@ -17,7 +18,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 140%;
-  color: #000000;
+  color: #b3b7b8;
 }
 
 .home__headerBox__inputs {

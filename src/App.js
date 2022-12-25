@@ -1,5 +1,6 @@
 import './App.css';
-import { AddDishes, Sidebar } from "./components";
+import { Sidebar } from "./components";
+import { Home } from './page/Home/Home';
 // import { DishCard } from "./components";
 // import { Statistika } from "./components";
 // import { SettingsNested } from "./components";
@@ -19,25 +20,9 @@ import { AddDishes, Sidebar } from "./components";
 
 function App() {
   return (
-    <div className="container">
-      <Sidebar />
-      {/* <HomeHeader /> */}
-      {/* Dishcard componenta => <DishCard/> */}
-      {/*Statistica componenta => <Statistika/> */}
-      {/*Settings Nested => components <SettingsNested/> */}
-      {/* Dashboard header => <DashboardHeader/> */}
-      {/*Settings header => <SettingsHeader/> */}
-      {/* <PricebarHeader></PricebarHeader> */}
-      {/* <PricebarFooter /> */}
-      {/* <Orders /> */}
-      {/* <AddDishes /> */}
-      {/*MostOrder components  <MostOrder/> */}
-      {/*TypeOrder component and Charat <TypeOrder/> */}
-      {/*Modal component <Modal/> */}
-      {/* <ProductsManagement/> */}
-      {/* <FoodFilter/> */}
-      {/* <SelectedDishes /> */}
-    </div>
+    <>
+      <Home />
+    </>
   );
 };
 

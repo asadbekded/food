@@ -20,8 +20,6 @@ export const Sidebar = () => {
         { page: "/settings", src: LogoSeven },
         { page: "/logout", src: LogoEight },
     ]
-
-
     return (
         <>
             <ul className='sidebar__list'>

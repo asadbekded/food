@@ -1,66 +1,69 @@
-.foodfilter-header{
-   background-color: #1F1D2B;
+.foodfilter-header {
+  background-color: transparent;
 }
-.foodfilter-list{
-   display: flex;
-   margin: 0px;
-   padding: 0px;
-   list-style: none;
-   align-items: center;
-   padding: 0px 24px 13px 24px;
-   border-bottom: 1px solid #393C49;
+.foodfilter-list {
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  align-items: center;
+  padding: 0px 0 13px 0;
+  border-bottom: 1px solid #393c49;
 }
-.product-item + .product-item{
-   margin-left: 32px;
+.product-item + .product-item {
+  margin-left: 32px;
 }
-.product-link{
-   text-decoration: none;
-   font-weight: 600;
-   font-size: 14px;
-   line-height: 140%;
-   color: #FFFFFF;
+.product-link {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 140%;
+  color: #ffffff;
 }
-.product-act{
-   position: relative;
-   text-decoration: none;
-   font-weight: 600;
-   font-size: 14px;
-   line-height: 140%;
-   color: #EA7C69;
+.product-act {
+  position: relative;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 140%;
+  color: #ea7c69;
+  transition: 0.2s ease;
 }
-.product-act::before{
-   position: absolute;
-   width: 37px;
-   height: 3px;
-   border-radius: 4px;
-   background: #EA7C69;
-   bottom: -16.5px;
-   content: '';
+.product-act::before {
+  position: absolute;
+  width: 37px;
+  height: 3px;
+  border-radius: 4px;
+  background: #ea7c69;
+  bottom: -16.5px;
+  content: "";
 }
-.food-sel{
-   width: 100px;
-   padding: 14px;
-   margin-right: 13px;
-   background-color: #1F1D2B;
-   border: 1px solid #393C49;
-   border-radius: 8px;
-   font-weight: 500;
-   font-size: 14px;
-   line-height: 130%;
-   border: none;
-   color: #E0E6E9;
+.food-sel {
+  width: 100px;
+  margin-right: 13px;
+  padding: 14px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 130%;
+  color: #e0e6e9;
+  background-color: #1f1d2b;
+  border: 1px solid #393c49;
+  border-radius: 8px;
+  border: none;
+  outline: none;
 }
-.food-box{
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
-   margin-top: 24px;
+.food-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 24px;
+  margin-bottom: 68px;
 }
-.foodfilter-title{
-   margin: 0px;
-   font-style: normal;
-   font-weight: 600;
-   font-size: 20px;
-   line-height: 140%;
-   color: #FFFFFF;
+.foodfilter-title {
+  margin: 0px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 140%;
+  color: #ffffff;
 }
