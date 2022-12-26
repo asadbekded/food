@@ -6,9 +6,8 @@ import Del from '../../assets/images/Trash.svg';
 export const SelectedDishes = () => {
    return (
       <>
-<<<<<<< HEAD
          <form className='selectedd-content'>
-            <ul className='selectedd-list'>
+            {/* <ul className='selectedd-list'>
                <li className='selectedd-item'>
                   <div>
                      <div className='spice-box'>
@@ -24,8 +23,7 @@ export const SelectedDishes = () => {
                      </div>
                      <div>
                         <Input type='text' placeholder='Please, just a little bit spicy only.' />
-                        <button>{Del}</button>
-=======
+                        <button>{Del}</button> */}
          <div className='selectedd-content'>
             <ul className='selectedd-list'>
                <li className='selectedd-item'>
@@ -88,16 +86,13 @@ export const SelectedDishes = () => {
                      <div className='spicehero-box'>
                         <Input className="spice-inp" type='text' placeholder='Please, just a little bit spicy only.' />
                         <button className='spicedel-btn'><img src={Del} alt='delete img' width={20} height={20} /></button>
->>>>>>> 983cd9c61b9727772a7102bffe2e835b6d8ebc67
                      </div>
                   </div>
                </li>
             </ul>
-<<<<<<< HEAD
-         </form>
-=======
+
          </div>
->>>>>>> 983cd9c61b9727772a7102bffe2e835b6d8ebc67
+         </form>
       </>
    )
 }

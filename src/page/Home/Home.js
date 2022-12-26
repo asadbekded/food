@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-import { FoodFilter, HomeHeader, SelectedDishes, Sidebar } from '../../components';
-=======
 import { FoodFilter, HomeHeader, PricebarFooter, SelectedDishes, Sidebar } from '../../components';
->>>>>>> 983cd9c61b9727772a7102bffe2e835b6d8ebc67
 import { PricebarHeader } from '../../components/PricebarHeader';
 import './Home.css';
 
