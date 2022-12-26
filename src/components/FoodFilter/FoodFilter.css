@@ -1,5 +1,6 @@
 .foodfilter-header {
   background-color: transparent;
+  padding-top: 6px;
 }
 .foodfilter-list {
   display: flex;
