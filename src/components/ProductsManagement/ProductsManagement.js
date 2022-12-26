@@ -1,5 +1,5 @@
-import { NavLink, Route, Routes } from "react-router-dom";
 import './ProductsManagement.css';
+import { NavLink } from "react-router-dom";
 
 export const ProductsManagement = () => {
   return (
@@ -11,47 +11,37 @@ export const ProductsManagement = () => {
       </div>
       <ul className='product-list'>
          <li className='product-item'>
-            <NavLink className={({ isActive }) => isActive ? "product-act" : "product-link"} to="hotDishes">
+            <NavLink className={({ isActive }) => isActive ? "product-act" : "product-link"} to="/settings/hotDishes">
              Hot Dishes
             </NavLink>
          </li>
          <li className='product-item'>
-            <NavLink className={({ isActive }) => isActive ? "product-act" : "product-link"} to="coldDishes">
+            <NavLink className={({ isActive }) => isActive ? "product-act" : "product-link"} to="/settings/coldDishes">
             Cold Dishes
             </NavLink>
          </li>
          <li className='product-item'>
-            <NavLink className={({ isActive }) => isActive ? "product-act" : "product-link"} to="soup">
+            <NavLink className={({ isActive }) => isActive ? "product-act" : "product-link"} to="/settings/soup">
             Soup
             </NavLink>
          </li>
          <li className='product-item'>
-            <NavLink className={({ isActive }) => isActive ? "product-act" : "product-link"} to="grill">
+            <NavLink className={({ isActive }) => isActive ? "product-act" : "product-link"} to="/settings/grill">
             Grill
             </NavLink>
          </li>
          <li className='product-item'>
-            <NavLink className={({ isActive }) => isActive ? "product-act" : "product-link"} to="appetizer">
+            <NavLink className={({ isActive }) => isActive ? "product-act" : "product-link"} to="/settings/appetizer">
             Appetizer
             </NavLink>
          </li>
          <li className='product-item'>
-            <NavLink className={({ isActive }) => isActive ? "product-act" : "product-link"} to="dessert">
+            <NavLink className={({ isActive }) => isActive ? "product-act" : "product-link"} to="/settings/dessert">
             Dessert
             </NavLink>
          </li>
       </ul>
     </header>
-    <div>
-         <Routes>
-            <Route path="hotDishes" element={<h2>Hot dishes menu</h2>}/>
-            <Route path="coldDishes" element={<h2>Cold dishes menu</h2>}/>
-            <Route path="soup" element={<h2>Soup menu</h2>}/>
-            <Route path="grill" element={<h2>Grill menu</h2>}/>
-            <Route path="appetizer" element={<h2>Appetizer menu</h2>}/>
-            <Route path="dessert" element={<h2>Dessert menu</h2>}/>
-         </Routes>
-      </div>
     </>
   )
 }

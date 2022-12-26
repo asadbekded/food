@@ -6,7 +6,8 @@
    list-style: none;
    background-color: #1F1D2B;
    border-radius: 8px;
-   padding-bottom: 114px;
+   padding-bottom: 50px;
+   margin-right: 24px;
 }
 .nested-item{
    position: relative;
