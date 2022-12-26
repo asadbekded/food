@@ -6,7 +6,7 @@ import LogoFivth from '../../assets/images/sidebar/Logo-five.svg';
 import LogoSix from '../../assets/images/sidebar/Logo-six.svg';
 import LogoSeven from '../../assets/images/sidebar/Logo-seven.svg';
 import LogoEight from '../../assets/images/sidebar/Logo-eight.svg';
-import { Link, NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './sidebar.css'
 
 export const Sidebar = () => {
