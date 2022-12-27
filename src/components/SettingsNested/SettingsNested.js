@@ -1,5 +1,5 @@
 import './SettingsNested.css'
-import { NavLink, Route, Routes } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 export const SettingsNested = () => {
   return (
@@ -49,7 +49,7 @@ export const SettingsNested = () => {
       </li>
     </ul>
     <div>
-    <Routes>
+    {/* <Routes>
           <Route path="/settings/apperereance" element={<h2>Appereance</h2>} />
           <Route path="/settings/restaurant" element={<h2>Your Restaurant</h2>} />
           <Route path="/settings/product" element={<h2>Products Management</h2>} />
@@ -57,7 +57,7 @@ export const SettingsNested = () => {
           <Route path="/settings/security" element={<h2>Security</h2>} />
           <Route path="/settings/management" element={<h2>Products Management</h2>} />
           <Route path="/settings/aboutus" element={<h2>About Us</h2>} />
-      </Routes>
+      </Routes> */}
     </div>
     </>
   )
