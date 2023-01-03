@@ -88,7 +88,7 @@ export const Orders = () => {
                                 <td className="table__tbody__td">
                                     {el.price}
                                 </td>
-                                <td className="table__tbody__td active">
+                                <td className="table__tbody__td actives">
                                     {el.isComplated}
                                 </td>
                             </tbody>

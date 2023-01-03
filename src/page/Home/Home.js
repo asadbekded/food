@@ -5,17 +5,17 @@ import './Home.css';
 export const Home = () => {
   return (
     <>
-        <div className='content__resto'>
-          <div className='homeFixed'>
-            <HomeHeader />
-          </div>
-          <FoodFilter />
+      <div className='content__resto'>
+        <div className='homeFixed'>
+          <HomeHeader />
         </div>
-        <div className='content__orders'>
-          <PricebarHeader />
-          <SelectedDishes />
-          <PricebarFooter />
-        </div>
+        <FoodFilter />
+      </div>
+      <div className='content__orders'>
+        <PricebarHeader />
+        <SelectedDishes />
+        <PricebarFooter />
+      </div>
     </>
   )
 }
