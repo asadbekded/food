@@ -1,5 +1,6 @@
 import './DishCard.css';
-import Pizza from '../../assets/images/Image 1.png'
+import Pizza from '../../assets/images/Image 1.png';
+import Shorva from '../../assets/images/oqat.png';
 
 export const DishCard = () => {
   return (
@@ -14,7 +15,7 @@ export const DishCard = () => {
           </div>
         </li>
         <li className='dish-item'>
-          <img className='dish-img' src={Pizza} alt='' width={132} height={132} />
+          <img className='dish-img' src={Shorva} alt='' width={132} height={132} />
           <div className='dish-box'>
             <h3 className='dish-title'>Spicy seasoned seafood noodles</h3>
             <span className='dish-cur'>$ 2.29</span>

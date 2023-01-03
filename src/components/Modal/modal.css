@@ -9,12 +9,14 @@
   justify-content: right;
   background-color: #000000b3;
   z-index: 10;
+  transition: 0.2s ease;
 }
 .modal-content {
   width: 405px;
   padding: 14px 24px 24px 24px;
   border-radius: 16px 16px 0px 16px;
   background-color: #1f1d2b;
+  transition: 0.2s ease;
 }
 .modal-header {
   padding-bottom: 24px;

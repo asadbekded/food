@@ -25,11 +25,17 @@ export const Sidebar = () => {
             <ul className='sidebar__list'>
                 {
                     Menu.map((item, index) => (
-                        <li className='sidebar__list__item' key={index}>
-                            <NavLink to={item.page}>
+                        <NavLink className={({ isActive }) => isActive ? "active" : "ittemms"} to={item.page}>
+                            <div className='top-box'>
+                                <b className='top'></b>
+                            </div>
+                            <div className='bottom-box'>
+                                <b className='bottom'></b>
+                            </div>
+                            <li className='sidebar__list__item' key={index}>
                                 <img src={item.src} alt="img" width='30' />
-                            </NavLink>
-                        </li>
+                            </li>
+                        </NavLink>
                     ))
                 }
             </ul>
