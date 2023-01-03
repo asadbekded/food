@@ -11,7 +11,7 @@ export const HomeHeader = () => {
                 <div className='home__headerBox__input'>
                     <form method='post' className="form__search">
                         <img className="serach__icon" src={SearchIcon} width="20" height="20" alt="Search Icon" />
-                        <input className="home__headerBox__inputs" type="text" placeholder="Search for food, coffe, etc.." />
+                        <input className="home__headerBox__inputs" type="search" placeholder="Search for food, coffe, etc.." />
                     </form>
                 </div>
             </div>

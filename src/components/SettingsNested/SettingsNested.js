@@ -1,12 +1,12 @@
 import './SettingsNested.css'
-import { NavLink } from 'react-router-dom';
+import { NavLink} from 'react-router-dom';
 
 export const SettingsNested = () => {
   return (
     <>
     <ul className='nested-list'>
       <li className='nested-item'>
-         <NavLink className={({isActive}) => (isActive ? 'nestedhov' : 'nested-link')} to='/settings/apperereance'>
+         <NavLink className={({isActive}) => (isActive ? 'nestedhov' : 'nested-link')} to='/apperereance'>
            <h3 className='nested-title'>Appereance</h3>
            <p className='nested-text'>Dark and Light mode, Font size</p>
          </NavLink>
@@ -48,17 +48,6 @@ export const SettingsNested = () => {
          </NavLink>
       </li>
     </ul>
-    <div>
-    {/* <Routes>
-          <Route path="/settings/apperereance" element={<h2>Appereance</h2>} />
-          <Route path="/settings/restaurant" element={<h2>Your Restaurant</h2>} />
-          <Route path="/settings/product" element={<h2>Products Management</h2>} />
-          <Route path="/settings/notification" element={<h2>Notifications</h2>} />
-          <Route path="/settings/security" element={<h2>Security</h2>} />
-          <Route path="/settings/management" element={<h2>Products Management</h2>} />
-          <Route path="/settings/aboutus" element={<h2>About Us</h2>} />
-      </Routes> */}
-    </div>
     </>
   )
 }

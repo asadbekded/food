@@ -2,7 +2,7 @@ import './App.css';
 import { Route, Routes } from 'react-router-dom';
 import { Home } from './page/Home/Home';
 import { Settings } from './page/Setting/Setting';
-import { Dashbord } from './page/Dashbord/Dashbord'
+import { Dashbord } from './page/Dashbord/Dashbord';
 import { Sidebar } from './components';
 
 function App() {
