@@ -1,8 +1,9 @@
 .dash-header{
-   padding-top: 24px;
+   width: 100%;
    padding-bottom: 24px;
    background-color:#252836;
    border-bottom: 1px solid #393C49;
+   margin-bottom: 24px;
 }
 .dash-logo{
    font-weight: 600;

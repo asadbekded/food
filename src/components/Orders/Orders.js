@@ -8,6 +8,48 @@ export const Orders = () => {
             body: "Spicy seasoned seafood noodles ",
             price: "$125",
             isComplated: "Completed"
+        },
+        {
+            title: "Eren Jaegar",
+            body: "Spicy seasoned seafood noodles ",
+            price: "$125",
+            isComplated: "Completed"
+        },
+        {
+            title: "Eren Jaegar",
+            body: "Spicy seasoned seafood noodles ",
+            price: "$125",
+            isComplated: "Completed"
+        },
+        {
+            title: "Eren Jaegar",
+            body: "Spicy seasoned seafood noodles ",
+            price: "$125",
+            isComplated: "Completed"
+        },
+        {
+            title: "Eren Jaegar",
+            body: "Spicy seasoned seafood noodles ",
+            price: "$125",
+            isComplated: "Completed"
+        },
+        {
+            title: "Eren Jaegar",
+            body: "Spicy seasoned seafood noodles ",
+            price: "$125",
+            isComplated: "Completed"
+        },
+        {
+            title: "Eren Jaegar",
+            body: "Spicy seasoned seafood noodles ",
+            price: "$125",
+            isComplated: "Completed"
+        },
+        {
+            title: "Eren Jaegar",
+            body: "Spicy seasoned seafood noodles ",
+            price: "$125",
+            isComplated: "Completed"
         }
     ]
     return (
@@ -15,9 +57,7 @@ export const Orders = () => {
             <div className="report">
                 <div className="report__titleBox">
                     <h3 className="report__title">Order Report</h3>
-                    <select className="report__select">
-                        <option>Filter Order</option>
-                    </select>
+                    <button className='report__btn' type='button'>Filter Order</button>
                 </div>
                 <table className="report__table table">
                     <tr className="table__tr">
@@ -34,6 +74,7 @@ export const Orders = () => {
                             Status
                         </th>
                     </tr>
+                    <div className="scroll__box">
                     {Table.map((el) => (
                         <>
                             <tbody className="table__tbody">
@@ -53,6 +94,7 @@ export const Orders = () => {
                             </tbody>
                         </>
                     ))}
+                    </div>
                 </table>
             </div>
         </>

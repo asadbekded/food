@@ -1,8 +1,17 @@
 .report {
+  width: 100%;
   padding: 24px 16px;
   background: #1f1d2b;
   border: 1px solid #393c49;
   border-radius: 8px;
+}
+
+.scroll__box{
+  height: 315px;
+  overflow: auto;
+}
+.scroll__box::-webkit-scrollbar {
+  width: 0;
 }
 
 .report__titleBox {
@@ -28,6 +37,29 @@
   margin: 0;
 }
 
+.report__btn{
+  position: relative;
+  padding: 14px 16px 14px 44px;
+  border: 1px solid #393C49;
+  border-radius: 8px;
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 130%;
+  color: #FFFFFF;
+  background-color: #1F1D2B;
+}
+.report__btn::before{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-image: url('../../assets/images/Option.svg');
+  background-repeat: no-repeat;
+  background-size: auto;
+  left: 16px;
+  content: '';
+}
+
 .table {
   width: 100%;
   margin: 23px 0 0 0;
@@ -37,6 +69,8 @@
   display: flex;
   width: 100%;
   justify-content: space-between;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #393C49;
 }
 
 .table__tbody {

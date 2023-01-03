@@ -10,27 +10,27 @@ export const Statistika = () => {
     <ul className='static-list'>
       <li className='static-item'>
          <div className='static-box'>
-           <img className='dish-img' src={Dollar} alt='' width={38} height={38}/>
+           <img className='static-img' src={Dollar} alt='' width={38} height={38}/>
            <span className='static-cur'>+32.40%</span>
-           <img className='dish-img' src={Strelka} alt='' width={18} height={18}/>
+           <img className='static-img' src={Strelka} alt='' width={18} height={18}/>
          </div>
          <h2 className='static-title'>$10,243.00</h2>
          <p className='static-text'>Total Revenue</p>
       </li>
       <li className='static-item'>
          <div className='static-box'>
-           <img className='dish-img' src={Izob} alt='' width={38} height={38}/>
+           <img className='static-img' src={Izob} alt='' width={38} height={38}/>
            <span className='static-cur static-en'>-12.40%</span>
-           <img className='dish-img' src={Strelka} alt='' width={18} height={18}/>
+           <img className='static-img' src={Strelka} alt='' width={18} height={18}/>
          </div>
          <h2 className='static-title'>23,456</h2>
          <p className='static-text'>Total Dish Ordered</p>
       </li>
       <li className='static-item'>
          <div className='static-box'>
-           <img className='dish-img' src={User} alt='' width={38} height={38}/>
+           <img className='static-img' src={User} alt='' width={38} height={38}/>
            <span className='static-cur'>+2.40%</span>
-           <img className='dish-img' src={Fox} alt='' width={18} height={18}/>
+           <img className='static-img' src={Fox} alt='' width={18} height={18}/>
          </div>
          <h2 className='static-title'>1,234</h2>
          <p className='static-text'>Total Customer</p>

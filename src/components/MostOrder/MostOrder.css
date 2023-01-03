@@ -3,6 +3,7 @@
    background-color: #1F1D2B;
    border-radius: 8px;
    padding: 24px;
+   margin-bottom: 24px;
 }
 .mostorder-header{
    display: flex;
@@ -71,3 +72,14 @@
    border-radius: 8px;
    background-color: #1F1D2B;
 }
+.mostorder-img{
+   animation: mylast 8s infinite linear;
+}
+@keyframes mylast {
+   0%{
+     transform:  rotate(0deg);
+   }
+   100%{
+     transform:  rotate(360deg);
+   }
+ }

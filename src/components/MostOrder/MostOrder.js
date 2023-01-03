@@ -17,21 +17,21 @@ export const MostOrder = () => {
 
       <ul className='mostorder-list'>
         <li className='mostorder-item'>
-          <img src={Food} alt='food img' width="56" height="56"/>
+          <img src={Food} className='mostorder-img' alt='food img' width="56" height="56"/>
           <div className='most-box'>
             <h4 className='most-title'>Spicy seasoned seafood noodles</h4>
             <p className='most-text'>200 dishes ordered</p>
           </div>
         </li>
         <li className='mostorder-item'>
-          <img src={Lagman} alt='food img' width="56" height="56"/>
+          <img src={Lagman} className='mostorder-img' alt='food img' width="56" height="56"/>
           <div className='most-box'>
             <h4 className='most-title'>Salted pasta with mushroom sauce</h4>
             <p className='most-text'>120 dishes ordered</p>
           </div>
         </li>
         <li className='mostorder-item'>
-          <img src={Manti} alt='food img' width="56" height="56"/>
+          <img src={Manti} className='mostorder-img' alt='food img' width="56" height="56"/>
           <div className='most-box'>
             <h4 className='most-title'>Beef dumpling in hot and sour soup</h4>
             <p className='most-text'>80 dishes ordered</p>
