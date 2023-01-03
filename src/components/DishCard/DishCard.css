@@ -20,6 +20,15 @@
   position: absolute;
   top: -34px;
   left: 44px;
+  animation: myfirst 8s infinite linear;
+}
+@keyframes myfirst {
+  0%{
+    transform:  rotate(0deg);
+  }
+  100%{
+    transform:  rotate(360deg);
+  }
 }
 
 

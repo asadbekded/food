@@ -38,6 +38,15 @@
   margin-bottom: 16px;
   margin-right: auto;
   margin-left: auto;
+  animation: myfood 8s infinite linear;
+}
+@keyframes myfood {
+  0%{
+    transform:  rotate(0deg);
+  }
+  100%{
+    transform:  rotate(360deg);
+  }
 }
 
 .add__btn {
