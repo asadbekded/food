@@ -4,7 +4,11 @@ body {
 
 .content {
   display: flex;
-  /* justify-content: space-between; */
+}
+
+.contents {
+  display: flex;
+  justify-content: center;
 }
 
 .content__orders {
@@ -19,9 +23,8 @@ body {
 
 .content__resto {
   width: 1010px;
-  padding: 104px 38px 0 10px;
+  padding: 104px 38px 0 20px;
 }
-
 
 .homeFixed {
   position: fixed;
@@ -29,5 +32,6 @@ body {
   width: 963px;
   padding: 20px 0 0 0;
   background-color: #252836ff;
-  z-index: 2;
+  z-index: 0;
+  opacity: 1;
 }

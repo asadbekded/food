@@ -1,16 +1,16 @@
-.setingpage__content{
-    margin: 24px;
+.setingpag__content {
+  padding: 24px;
 }
-.setingpage__topheader{
-    margin-bottom: 24px;
+.setingpage__topheader {
+  margin-bottom: 24px;
 }
-.setingpage__section{
-    display: flex;
-    align-items: flex-start;
+.setingpage__section {
+  display: flex;
+  align-items: flex-start;
 }
-.setingpage__dishesbox{
-    width: 100%;
-    max-width: 1150px;
-    border-radius: 8px;
-    background: #1F1D2B;
+.setingpage__dishesbox {
+  width: 100%;
+  max-width: 1150px;
+  border-radius: 8px;
+  background: #1f1d2b;
 }

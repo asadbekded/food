@@ -15,22 +15,17 @@ export const Modal = ({ modal, setModal }) => {
 
    const handleFormSubmit = (evt) => {
       evt.preventDefault()
-      console.log(nameRef.current.value);
-      console.log(phoneRef.current.value);
-      console.log(dateRef.current.value);
-      console.log(passwordRef.current.value);
-      console.log(selRef.current.value);
-      console.log(numRef.current.value);
+
    }
 
    const handleOverley = (evt) => {
-      if(evt.target === overlayModal.current){
+      if (evt.target === overlayModal.current) {
          setModal(false)
       }
    }
 
    return (
-      <div ref={overlayModal} onClick={handleOverley} className="modal-overlay">
+      <div ref={overlayModal} onClick={handleOverley} className="modal-overlay" style={{ transition: "0.2s ease" }}>
          <div className="modal-content">
             <div className="modal-header">
                <h2 className='modal-title'>Payment</h2>
