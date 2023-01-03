@@ -4,7 +4,11 @@ body {
 
 .content {
   display: flex;
-  /* justify-content: space-between; */
+}
+
+.contents {
+  display: flex;
+  justify-content: center;
 }
 
 .content__orders {
