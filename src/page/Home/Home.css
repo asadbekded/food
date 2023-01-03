@@ -19,9 +19,8 @@ body {
 
 .content__resto {
   width: 1010px;
-  padding: 104px 38px 0 10px;
+  padding: 104px 38px 0 20px;
 }
-
 
 .homeFixed {
   position: fixed;
