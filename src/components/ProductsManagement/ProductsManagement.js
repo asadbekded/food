@@ -51,7 +51,7 @@ export const ProductsManagement = () => {
                <Route path="/grill" element={<AddDishes/>} />
                <Route path="/appetizer" element={<AddDishes/>} />
                <Route path="/dessert" element={<AddDishes/>} />
-            </Routes>
+         </Routes>
          </div>
       </>
    )
