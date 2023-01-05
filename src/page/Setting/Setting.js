@@ -19,6 +19,7 @@ export const Settings = () => {
             <Route path="/settings/grill" element={<h2>Grill menu</h2>} />
             <Route path="/settings/appetizer" element={<h2>Appetizer menu</h2>} />
             <Route path="/settings/dessert" element={<h2>Dessert menu</h2>} />
+          </Routes>
         </div>
       </div>
     </div>
