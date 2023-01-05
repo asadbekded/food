@@ -46,12 +46,21 @@ export const ProductsManagement = () => {
          <div>
             <Routes>
                <Route index element={<AddDishes />} />
+<<<<<<< HEAD
                <Route path="/coldDishes" element={<AddDishes />} />
                <Route path="/soup" element={<AddDishes />} />
                <Route path="/grill" element={<AddDishes />} />
                <Route path="/appetizer" element={<AddDishes />} />
                <Route path="/dessert" element={<AddDishes />} />
             </Routes>
+=======
+               <Route path="/coldDishes" element={<AddDishes/>} />
+               <Route path="/soup" element={<AddDishes/>} />
+               <Route path="/grill" element={<AddDishes/>} />
+               <Route path="/appetizer" element={<AddDishes/>} />
+               <Route path="/dessert" element={<AddDishes/>} />
+         </Routes>
+>>>>>>> 7fae1d81fe905ca4824df4d1c111cb95086be40f
          </div>
       </>
    )
