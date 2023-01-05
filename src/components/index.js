@@ -1,4 +1,4 @@
-import { HomeHeader } from "./HomeHeader/HomeHeader";
+import { HomeHeader } from "./HomeHeader";
 import { DishCard } from "./DishCard";
 import { Statistika } from "./Statistika";
 import { SettingsNested } from "./SettingsNested";
@@ -7,7 +7,7 @@ import { SettingsHeader } from "./SettingsHeader";
 import { PricebarFooter } from "./PricebarFooter";
 import { PricebarHeader } from "./PricebarHeader";
 import { Orders } from "./Orders";
-import { Sidebar } from "./Sidebar/Sidebar";
+import { Sidebar } from "./Sidebar";
 import { AddDishes } from "./AddDishes/AddDishes";
 import { MostOrder } from "./MostOrder";
 import { TypeOrder } from "./TypeOrder";
