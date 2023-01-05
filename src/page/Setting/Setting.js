@@ -1,5 +1,5 @@
 // import { Route, Routes } from 'react-router-dom';
-import { AddDishes, ProductsManagement, SettingsHeader, SettingsNested } from '../../components';
+import { ProductsManagement, SettingsHeader, SettingsNested } from '../../components';
 import './Setting.css';
 
 export const Settings = () => {
@@ -10,7 +10,6 @@ export const Settings = () => {
         <SettingsNested />
         <div className='setingpage__dishesbox'>
           <ProductsManagement />
-          <AddDishes />
         </div>
       </div>
     </div>

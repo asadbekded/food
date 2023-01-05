@@ -49,7 +49,7 @@ export const FoodFilter = () => {
          </header>
          <div>
             <Routes>
-               <Route path="/" element={<DishCard />} />
+               <Route index element={<DishCard />} />
                <Route path="/coldDishes" element={<h2>Cold dishes menu</h2>} />
                <Route path="/soup" element={<h2>Soup menu</h2>} />
                <Route path="/grill" element={<h2>Grill menu</h2>} />
