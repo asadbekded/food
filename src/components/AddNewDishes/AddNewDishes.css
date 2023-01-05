@@ -57,6 +57,8 @@
   background: #2d303e;
   border: 1px dashed #ea7c69;
   border-radius: 8px;
+  cursor: pointer;
+  opacity: -40;
 }
 
 .newDishes__downloadTitle {
@@ -75,4 +77,14 @@
   font-size: 12px;
   line-height: 140%;
   color: #abbbc2;
+}
+
+.down {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  object-fit: cover;
+  margin-left: -310px;
+  width: 50px;
+  cursor: pointer;
 }

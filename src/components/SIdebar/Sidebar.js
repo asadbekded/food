@@ -11,14 +11,14 @@ import './sidebar.css'
 
 export const Sidebar = () => {
     const Menu = [
-        { id:"1", page: "/Jaegar", src: Logo },
-        { id:"2", page: "/", src: LogoSecond },
-        { id:"3", page: "/LogoThird", src: LogoThird },
-        { id:"4", page: "/dashboard", src: LogoFirth },
-        { id:"5", page: "/message", src: LogoFivth },
-        { id:"6", page: "/notification", src: LogoSix },
-        { id:"7", page: "/settings", src: LogoSeven },
-        { id:"8", page: "/logout", src: LogoEight },
+        { id: "1", page: "/Jaegar", src: Logo },
+        { id: "2", page: "/", src: LogoSecond },
+        { id: "3", page: "/logoThird", src: LogoThird },
+        { id: "4", page: "/dashboard", src: LogoFirth },
+        { id: "5", page: "/message", src: LogoFivth },
+        { id: "6", page: "/notification", src: LogoSix },
+        { id: "7", page: "/settings", src: LogoSeven },
+        { id: "8", page: "/logout", src: LogoEight },
     ]
     return (
         <>

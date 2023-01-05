@@ -14,7 +14,7 @@ function App() {
         </div>
         <Routes>
           <Route path='/*' element={<Home />} />
-          <Route path='/dashboard' element={<Dashbord />} />
+          <Route path='/dashboard/*' element={<Dashbord />} />
           <Route path='/settings/*' element={<Settings />} />
         </Routes>
       </div>

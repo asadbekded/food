@@ -12,7 +12,7 @@ export const ProductsManagement = () => {
             </div>
             <ul className='product-list'>
                <li className='product-item'>
-                  <NavLink className={({ isActive }) => isActive ? "product-act" : "product-link"} to="/settings/hotDishes">
+                  <NavLink className={({ isActive }) => isActive ? "product-act" : "product-link"} to="/settings">
                      Hot Dishes
                   </NavLink>
                </li>
@@ -43,16 +43,6 @@ export const ProductsManagement = () => {
                </li >
             </ul >
          </header >
-         <div>
-         <Routes>
-               <Route path='/hotDishes' element={<AddDishes />} />
-               <Route path="/coldDishes" element={<h2>Cold dishes menu</h2>} />
-               <Route path="/soup" element={<h2>Soup menu</h2>} />
-               <Route path="/grill" element={<h2>Grill menu</h2>} />
-               <Route path="/appetizer" element={<h2>Appetizer menu</h2>} />
-               <Route path="/dessert" element={<h2>Dessert menu</h2>} />
-            </Routes>
-         </div>
       </>
    )
 }
