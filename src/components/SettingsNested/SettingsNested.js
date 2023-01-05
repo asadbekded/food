@@ -1,4 +1,4 @@
-import './SettingsNested.css'
+import './SettingsNested.css';
 import { NavLink } from 'react-router-dom';
 
 export const SettingsNested = () => {

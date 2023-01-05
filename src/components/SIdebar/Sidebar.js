@@ -64,7 +64,6 @@ export const Sidebar = () => {
                                 <b className='bottom'></b>
                             </div>
                             <li className='sidebar__list__item' key={index}>
-                                {/* <img src={item.src} alt="img" width='30' /> */}
                                 <span className='icon-box'>
                                     {item.src}
                                 </span>
