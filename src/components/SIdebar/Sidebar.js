@@ -11,21 +11,21 @@ import './sidebar.css'
 
 export const Sidebar = () => {
     const Menu = [
-        { page: "/Jaegar", src: Logo },
-        { page: "/", src: LogoSecond },
-        { page: "/LogoThird", src: LogoThird },
-        { page: "/dashboard", src: LogoFirth },
-        { page: "/message", src: LogoFivth },
-        { page: "/notification", src: LogoSix },
-        { page: "/settings", src: LogoSeven },
-        { page: "/logout", src: LogoEight },
+        { id:"1", page: "/Jaegar", src: Logo },
+        { id:"2", page: "/", src: LogoSecond },
+        { id:"3", page: "/LogoThird", src: LogoThird },
+        { id:"4", page: "/dashboard", src: LogoFirth },
+        { id:"5", page: "/message", src: LogoFivth },
+        { id:"6", page: "/notification", src: LogoSix },
+        { id:"7", page: "/settings", src: LogoSeven },
+        { id:"8", page: "/logout", src: LogoEight },
     ]
     return (
         <>
             <ul className='sidebar__list'>
                 {
                     Menu.map((item, index) => (
-                        <NavLink className={({ isActive }) => isActive ? "active" : "ittemms"} to={item.page}>
+                        <NavLink key={item.id} className={({ isActive }) => isActive ? "active" : "ittemms"} to={item.page}>
                             <div className='top-box'>
                                 <b className='top'></b>
                             </div>

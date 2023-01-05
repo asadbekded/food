@@ -1,4 +1,5 @@
-import { FoodFilter, HomeHeader, PricebarFooter, SelectedDishes } from '../../components';
+import { Route, Routes } from 'react-router-dom';
+import { Appetizer, ColdDishes, Desert, DishCard, FoodFilter, Grill, HomeHeader, PricebarFooter, SelectedDishes, Soup } from '../../components';
 import { PricebarHeader } from '../../components/PricebarHeader';
 import './Home.css';
 
@@ -16,6 +17,7 @@ export const Home = () => {
         <SelectedDishes />
         <PricebarFooter />
       </div>
+
     </>
   )
 }

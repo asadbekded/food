@@ -15,5 +15,10 @@ import { Modal } from './Modal';
 import { ProductsManagement } from "./ProductsManagement";
 import { FoodFilter } from "./FoodFilter";
 import { SelectedDishes } from "./SelectedDishes";
-
-export { Orders, PricebarHeader, AddDishes, PricebarFooter, HomeHeader, DishCard, Statistika, SettingsNested, DashboardHeader, SettingsHeader, MostOrder, TypeOrder, Modal, ProductsManagement, FoodFilter, SelectedDishes, Sidebar };
+import { AddNewDishes } from "./AddNewDishes";
+import { ColdDishes } from "./ColdDishes";
+import { Desert } from "./Desert";
+import { Soup } from "./Soup";
+import { Grill } from "./Grill";
+import { Appetizer } from "./Appetizer";
+export { Appetizer, Grill, Soup, Desert, ColdDishes, AddNewDishes, Orders, PricebarHeader, AddDishes, PricebarFooter, HomeHeader, DishCard, Statistika, SettingsNested, DashboardHeader, SettingsHeader, MostOrder, TypeOrder, Modal, ProductsManagement, FoodFilter, SelectedDishes, Sidebar };

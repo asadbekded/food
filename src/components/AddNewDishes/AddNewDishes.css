@@ -1,0 +1,78 @@
+.newDishes__pos {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.744);
+  z-index: 222;
+}
+
+.newDishes__box {
+  width: 514px !important;
+  margin: 25px auto 0 auto;
+  padding: 30px;
+  background: #1f1d2b;
+  border-radius: 8px;
+}
+
+.newDIshes__title {
+  margin: 0 0 32px 0;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 140%;
+  color: #ffffff;
+  text-align: left;
+}
+
+.newDishes__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.newDishes__input {
+  padding: 14px;
+  background: #2d303e;
+  border: 1px solid #393c49;
+  border-radius: 8px;
+  outline: none;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.newDishes__input::placeholder {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 130%;
+  color: #e0e6e9;
+}
+
+.newDishes__download {
+  margin-bottom: 20px;
+  padding: 61px 0 17px 0;
+  background: #2d303e;
+  border: 1px dashed #ea7c69;
+  border-radius: 8px;
+}
+
+.newDishes__downloadTitle {
+  margin: 10px 0 0 0;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 130%;
+  color: #ea7c69;
+}
+
+.newDishes__downloadText {
+  margin: 0;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 140%;
+  color: #abbbc2;
+}
