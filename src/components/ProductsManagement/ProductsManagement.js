@@ -45,9 +45,7 @@ export const ProductsManagement = () => {
          </header >
          <div>
             <Routes>
-               <Route index element={<AddDishes />} />
-
-               <Route path='/hotDishes' element={<AddDishes />} />
+               <Route path='product-management/' element={<AddDishes />} />
                <Route path="/coldDishes" element={<AddDishes />} />
                <Route path="/soup" element={<AddDishes />} />
                <Route path="/grill" element={<AddDishes />} />

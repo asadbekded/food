@@ -34,6 +34,7 @@ export const AddNewDishes = ({ form, setForm }) => {
                 if (res.status === 200) {
                     setForm(false)
                 }
+                console.log(res.data);
             })
             .catch((err) => console.log(err));
     }
