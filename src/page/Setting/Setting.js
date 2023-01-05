@@ -1,5 +1,5 @@
 import { Route, Routes } from 'react-router-dom';
-import { AddDishes, ProductsManagement, SettingsHeader, SettingsNested } from '../../components';
+import { AddDishes, HotDishes, ProductsManagement, SettingsHeader, SettingsNested } from '../../components';
 import './Setting.css';
 
 export const Settings = () => {
@@ -11,12 +11,14 @@ export const Settings = () => {
         <div className='setingpage__dishesbox'>
           <ProductsManagement />
           <Routes>
-            <Route index element={<AddDishes />} />
-            <Route path="/settings/coldDishes" element={<h2>Cold dishes menu</h2>} />
-            <Route path="/settings/soup" element={<h2>Soup menu</h2>} />
-            <Route path="/settings/grill" element={<h2>Grill menu</h2>} />
-            <Route path="/settings/appetizer" element={<h2>Appetizer menu</h2>} />
-            <Route path="/settings/dessert" element={<h2>Dessert menu</h2>} />
+            <Route index element={<HotDishes />} />
+            <Route path="/appereance/*" element={<h2>appereance</h2>} />
+            <Route path="/your-reustarant/*" element={<h2>Your reustarant</h2>} />
+            <Route path="/product-management/*" element={<AddDishes />} />
+            <Route path="/notifications/*" element={<h2>notifications</h2>} />
+            <Route path="/security/*" element={<h2>security</h2>} />
+            <Route path="/about-management/*" element={<h2>about-management</h2>} />
+            <Route path="/about-us/*" element={<h2>About us</h2>} />
           </Routes>
         </div>
       </div>

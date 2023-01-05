@@ -1,6 +1,7 @@
 import './ProductsManagement.css';
 import { NavLink, Route, Routes } from "react-router-dom";
 import { AddDishes } from '../AddDishes/AddDishes';
+import { HotDishes } from '..';
 
 export const ProductsManagement = () => {
    return (
@@ -45,7 +46,7 @@ export const ProductsManagement = () => {
          </header >
          <div>
             <Routes>
-               <Route index element={<AddDishes />} />
+               <Route index element={<HotDishes />} />
                <Route path="/coldDishes" element={<AddDishes />} />
                <Route path="/soup" element={<AddDishes />} />
                <Route path="/grill" element={<AddDishes />} />
