@@ -1,10 +1,4 @@
 import { NavLink, Route, Routes } from 'react-router-dom';
-import { Appetizer } from '../Appetizer';
-import { Desert } from '../Desert';
-import { DishCard } from '../DishCard';
-import { Grill } from '../Grill';
-import { ColdDishes } from '../ColdDishes';
-import { Soup } from '../Soup';
 import './FoodFilter.css';
 // import PuffLoader from 'react-spinners/PuffLoader'
 

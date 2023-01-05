@@ -1,7 +1,5 @@
 import { Route, Routes } from 'react-router-dom';
 import { AddDishes, ProductsManagement, SettingsHeader, SettingsNested } from '../../components';
-import { Route, Routes } from 'react-router-dom';
-import { ProductsManagement, SettingsHeader, SettingsNested } from '../../components';
 import './Setting.css';
 
 export const Settings = () => {
