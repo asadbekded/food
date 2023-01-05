@@ -6,7 +6,7 @@
   list-style: none;
   background-color: #1f1d2b;
   border-radius: 8px;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
   margin-right: 24px;
 }
 .nested-item {
@@ -21,6 +21,7 @@
   display: block;
   padding: 24px 0px 24px 48px;
   border-radius: 8px;
+  background-color: #ea7c6942;
 }
 .nestedhov .nested-title {
   color: #ea7c69;

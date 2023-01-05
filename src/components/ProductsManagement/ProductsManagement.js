@@ -12,37 +12,48 @@ export const ProductsManagement = () => {
             </div>
             <ul className='product-list'>
                <li className='product-item'>
-                  <NavLink className={({ isActive }) => isActive ? "product-act" : "product-link"} to="/settings">
+                  <NavLink className={({ isActive }) => isActive ? "product-act" : "product-link"} to="/settings/product-management/hotDishes">
                      Hot Dishes
                   </NavLink>
                </li>
                <li className='product-item'>
-                  <NavLink className={({ isActive }) => isActive ? "product-act" : "product-link"} to="/settings/coldDishes">
+                  <NavLink className={({ isActive }) => isActive ? "product-act" : "product-link"} to="/settings/product-management/coldDishes">
                      Cold Dishes
                   </NavLink>
                </li>
                <li className='product-item'>
-                  <NavLink className={({ isActive }) => isActive ? "product-act" : "product-link"} to="/settings/soup">
+                  <NavLink className={({ isActive }) => isActive ? "product-act" : "product-link"} to="/settings/product-management/soup">
                      Soup
                   </NavLink>
                </li>
                <li className='product-item'>
-                  <NavLink className={({ isActive }) => isActive ? "product-act" : "product-link"} to="/settings/grill">
+                  <NavLink className={({ isActive }) => isActive ? "product-act" : "product-link"} to="/settings/product-management/grill">
                      Grill
                   </NavLink>
                </li>
                <li className='product-item'>
-                  <NavLink className={({ isActive }) => isActive ? "product-act" : "product-link"} to="/settings/appetizer">
+                  <NavLink className={({ isActive }) => isActive ? "product-act" : "product-link"} to="/settings/product-management/appetizer">
                      Appetizer
                   </NavLink>
                </li >
                <li className='product-item'>
-                  <NavLink className={({ isActive }) => isActive ? "product-act" : "product-link"} to="/settings/dessert">
+                  <NavLink className={({ isActive }) => isActive ? "product-act" : "product-link"} to="/settings/product-management/dessert">
                      Dessert
                   </NavLink>
                </li >
             </ul >
          </header >
+         <div>
+            <Routes>
+               <Route index element={<AddDishes />} />
+               <Route path='/hotDishes' element={<AddDishes />} />
+               <Route path="/coldDishes" element={<AddDishes />} />
+               <Route path="/soup" element={<AddDishes />} />
+               <Route path="/grill" element={<AddDishes />} />
+               <Route path="/appetizer" element={<AddDishes />} />
+               <Route path="/dessert" element={<AddDishes />} />
+            </Routes>
+         </div>
       </>
    )
 }
