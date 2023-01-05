@@ -43,6 +43,9 @@
   padding: 0px 24px 0px 24px;
   list-style: none;
 }
+.product-item{
+  padding-bottom: 13px;
+}
 .product-item + .product-item {
   margin-left: 32px;
 }
