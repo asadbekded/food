@@ -21,32 +21,17 @@
   text-align: center;
   border: 1px dashed #ea7c69;
   border-radius: 8px;
+  padding: 100px 50px 90px;
 }
 
-.dishes__item {
-  width: 221px;
-  text-align: center;
-  border: 1px solid #393c49;
-  border-radius: 10px;
-}
-
-.dishes__box {
-  padding: 30px 30px 16px 30px;
-}
-
-.dishes__img {
-  margin-bottom: 16px;
-  margin-right: auto;
-  margin-left: auto;
-  animation: myfood 8s infinite linear;
-}
-@keyframes myfood {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
+.add__btn::before {
+  display: block;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+  background-image: url("../../assets//images//AddDishes//Add.svg");
+  content: "";
 }
 
 .add__btn {
@@ -61,69 +46,70 @@
   color: #ea7c69;
 }
 
-.add__btn::before {
-  display: block;
-  cursor: pointer;
-  width: 50px;
-  height: 50px;
-  margin: 0 auto;
-  background-image: url("../../assets//images//AddDishes//Add.svg");
-  content: "";
+
+
+
+.dish-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+.dish-item {
+  position: relative;
+  width: 100%;
+  max-width: 222px;
+  background-color: #1f1d2b;
+  border-radius: 16px;
+  padding: 24px;
+  margin-bottom: 58px;
+}
+.dish-img {
+  position: absolute;
+  top: -34px;
+  left: 44px;
+  border-radius: 50%;
+  animation: myfirst 8s infinite linear;
+}
+@keyframes myfirst {
+  0%{
+    transform:  rotate(0deg);
+  }
+  100%{
+    transform:  rotate(360deg);
+  }
 }
 
-.dishes__title {
-  margin: 0 0 7px 0;
-  font-family: "Barlow";
-  font-style: normal;
+.dish-box {
+  margin-top: 100px;
+  text-align: center;
+}
+.dish-title {
   font-weight: 500;
   font-size: 14px;
   line-height: 130%;
   text-align: center;
   color: #ffffff;
+  margin: 0px;
+  margin-top: 14px;
+  margin-bottom: 8px;
 }
-
-.dishes__cost {
-  display: flex;
-  gap: 10px;
-  justify-content: center;
-  margin-bottom: 16px;
-}
-
-.dishes__price {
+.dish-cur {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
   text-align: center;
-  font-family: "Barlow";
-  font-style: normal;
+  color: #ffffff;
+}
+.dish-text {
   font-weight: 400;
   font-size: 14px;
   line-height: 140%;
   text-align: center;
   color: #abbbc2;
-}
-
-.dishes__bowl {
-  text-align: center;
-  font-family: "Barlow";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 140%;
-  text-align: center;
-  color: #abbbc2;
-}
-
-.dishes__edit {
-  padding: 16px;
-  background: #50343aff;
-  border-radius: 0px 0px 8px 8px;
-}
-
-.dishes__editBtn {
-  font-family: "Barlow";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 140%;
-  color: #ea7c69;
-  border: none;
-  background-color: transparent;
+  margin: 0px;
+  margin-top: 4px;
 }
