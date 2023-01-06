@@ -34,7 +34,7 @@ export const HotDishes = () => {
                      hots.map(el => (
                         <li className='dishes__item'>
                            <div className='dishes__box'>
-                              <img className='dishes__img' src={el.image} width='127' height='127' alt="" />
+                              <img className='dishes__img' src={`http://localhost:5000/${el.image}`} width='127' height='127' alt="" />
                               <h4 className='dishes__title'>{el.name}</h4>
                               <div className='dishes__cost'>
                                  <span className='dishes__price'>${el.price}</span>
