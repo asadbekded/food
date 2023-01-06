@@ -16,10 +16,10 @@ import { ProductsManagement } from "./ProductsManagement";
 import { FoodFilter } from "./FoodFilter";
 import { SelectedDishes } from "./SelectedDishes";
 import { AddNewDishes } from "./AddNewDishes";
-import { ColdDishes } from "./ColdDishes";
-import { Desert } from "./Desert";
+import { ColdDishes } from './ColdDishes'
+import { Dessert } from "./Dessert";
 import { Soup } from "./Soup";
 import { Grill } from "./Grill";
 import { Appetizer } from "./Appetizer";
-import { HotDishes } from './HotDishes/HotDishes'
-export { HotDishes, Appetizer, Grill, Soup, Desert, ColdDishes, AddNewDishes, Orders, PricebarHeader, AddDishes, PricebarFooter, HomeHeader, DishCard, Statistika, SettingsNested, DashboardHeader, SettingsHeader, MostOrder, TypeOrder, Modal, ProductsManagement, FoodFilter, SelectedDishes, Sidebar };
+import { HotDishes } from './HotDishes'
+export { HotDishes, Appetizer, Grill, Soup, Dessert, ColdDishes, AddNewDishes, Orders, PricebarHeader, AddDishes, PricebarFooter, HomeHeader, DishCard, Statistika, SettingsNested, DashboardHeader, SettingsHeader, MostOrder, TypeOrder, Modal, ProductsManagement, FoodFilter, SelectedDishes, Sidebar };

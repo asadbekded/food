@@ -1,5 +1,5 @@
 import { Route, Routes } from 'react-router-dom';
-import {  FoodFilter, HomeHeader, HotDishes, PricebarFooter, SelectedDishes } from '../../components';
+import { Appetizer, ColdDishes, Dessert, FoodFilter, Grill, HomeHeader, HotDishes, PricebarFooter, SelectedDishes, Soup } from '../../components';
 import { PricebarHeader } from '../../components/PricebarHeader';
 import './Home.css';
 
@@ -13,11 +13,11 @@ export const Home = () => {
         <FoodFilter />
         <Routes>
           <Route index element={<HotDishes />} />
-          <Route path="/coldDishes" element={<h2>Cold dishes menu</h2>} />
-          <Route path="/soup" element={<h2>Soup menu</h2>} />
-          <Route path="/grill" element={<h2>Grill menu</h2>} />
-          <Route path="/appetizer" element={<h2>Appetizer menu</h2>} />
-          <Route path="/dessert" element={<h2>Dessert menu</h2>} />
+          <Route path="/cold-dishes" element={<ColdDishes />} />
+          <Route path="/soup" element={<Soup />} />
+          <Route path="/grill" element={<Grill />} />
+          <Route path="/appetizer" element={<Appetizer />} />
+          <Route path="/dessert" element={<Dessert />} />
         </Routes>
       </div>
       <div className='content__orders'>

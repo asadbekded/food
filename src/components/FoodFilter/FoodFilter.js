@@ -33,7 +33,7 @@ export const FoodFilter = () => {
                   </NavLink>
                </li>
                <li className='product-item'>
-                  <NavLink className={({ isActive }) => isActive ? "product-act" : "product-link"} to='/desert'>
+                  <NavLink className={({ isActive }) => isActive ? "product-act" : "product-link"} to='/dessert'>
                      Dessert
                   </NavLink>
                </li>

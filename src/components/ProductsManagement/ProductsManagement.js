@@ -1,6 +1,8 @@
 import './ProductsManagement.css';
 import { NavLink, Route, Routes } from "react-router-dom";
+import { Appetizer, ColdDishes, Grill, Soup, Dessert } from '../../components';
 import { AddDishes } from '../../components';
+
 
 export const ProductsManagement = () => {
    return (
@@ -46,11 +48,11 @@ export const ProductsManagement = () => {
          <div>
             <Routes>
                <Route index element={<AddDishes />} />
-               <Route path="/coldDishes" element={<AddDishes />} />
-               <Route path="/soup" element={<AddDishes />} />
-               <Route path="/grill" element={<AddDishes />} />
-               <Route path="/appetizer" element={<AddDishes />} />
-               <Route path="/dessert" element={<AddDishes />} />
+               <Route path="/coldDishes" element={<ColdDishes />} />
+               <Route path="/soup" element={<Soup />} />
+               <Route path="/grill" element={<Grill />} />
+               <Route path="/appetizer" element={<Appetizer />} />
+               <Route path="/dessert" element={<Dessert />} />
             </Routes >
          </div >
       </>

@@ -2,6 +2,7 @@ import './AddDishes.css';
 // import Pizza from '../../assets/images/AddDishes/Image 1.svg';
 import { useState } from 'react';
 import { AddNewDishes } from '../AddNewDishes';
+import { HotDishes } from '../HotDishes';
 
 export const AddDishes = () => {
 
@@ -19,6 +20,7 @@ export const AddDishes = () => {
                             )
                         }
                     </li>
+                    <HotDishes />
                 </ul>
             </div>
         </>
