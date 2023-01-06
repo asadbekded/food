@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { useState } from 'react';
 import { useEffect } from 'react';
-import { Watch } from 'react-loader-spinner';
+// import { Watch } from 'react-loader-spinner';
 import { AddNewDishes } from '../AddNewDishes';
 import { DishCard } from '../DishCard';
 import './HotDishes.css';
@@ -50,7 +50,7 @@ export const HotDishes = () => {
                </DishCard>
             ) : (
                <div className='laoding-box'>
-                  <Watch
+                  {/* <Watch
                      className="loading"
                      height="80"
                      width="80"
@@ -60,7 +60,8 @@ export const HotDishes = () => {
                      wrapperStyle={{}}
                      wrapperClassName=""
                      visible={true}
-                  />
+                  /> */}
+                     <h2>Loading...</h2>
                   <div />
                </div>
             )

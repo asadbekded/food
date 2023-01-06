@@ -1,4 +1,4 @@
-import { NavLink, Route, Routes } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './FoodFilter.css';
 // import PuffLoader from 'react-spinners/PuffLoader'
 

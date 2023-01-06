@@ -8,7 +8,7 @@ import { PricebarFooter } from "./PricebarFooter";
 import { PricebarHeader } from "./PricebarHeader";
 import { Orders } from "./Orders";
 import { Sidebar } from "./Sidebar";
-import { AddDishes } from "./AddDishes/AddDishes";
+import { AddDishes } from "./AddDishes";
 import { MostOrder } from "./MostOrder";
 import { TypeOrder } from "./TypeOrder";
 import { Modal } from './Modal';

@@ -1,17 +1,17 @@
 import axios from 'axios';
-import { useState } from 'react';
+// import { useState } from 'react';
 import { useEffect } from 'react';
 import './Grill.css';
 
 export const Grill = () => {
-   const [grill, setGrill] = useState([]);
+   // const [grill, setGrill] = useState([]);
 
    useEffect(() => {
       axios
          .get('http://localhost:5000/food/4')
          .then((res) => console.log(res))
          .catch((err) => console.log(err));
-   }, [grill]);
+   }, []);
 
    return (
       <>

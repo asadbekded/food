@@ -1,5 +1,5 @@
 import { Route, Routes } from 'react-router-dom';
-import { Appetizer, ColdDishes, Desert, DishCard, FoodFilter, Grill, HomeHeader, HotDishes, PricebarFooter, SelectedDishes, Soup } from '../../components';
+import {  FoodFilter, HomeHeader, HotDishes, PricebarFooter, SelectedDishes } from '../../components';
 import { PricebarHeader } from '../../components/PricebarHeader';
 import './Home.css';
 
