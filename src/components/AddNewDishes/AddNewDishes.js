@@ -44,7 +44,7 @@ export const AddNewDishes = ({ setForm }) => {
                     <h3 className='newDIshes__title'>Add new product item to list</h3>
                     <form className='newDishes__form'>
                         <Input ref={productName} className="newDishes__input" type="text" placeholder="Product name" name="name" />
-                        <Input ref={productBowls} className="newDishes__input" type="number" placeholder="Product bowls" name="bowls" />
+                        <Input ref={productBowls} className="newDishes__input" type="text" placeholder="Product bowls" name="bowls" />
                         <Input ref={productPrice} className="newDishes__input" type="number" placeholder="Product price" name="price" />
                         <select ref={productSel} className='newDishes__input'>
                             <option defaultValue="Product category">Product category</option>
