@@ -2,27 +2,27 @@ import axios from 'axios';
 import { useState } from 'react';
 import { useEffect } from 'react';
 import { Watch } from 'react-loader-spinner';
-import './ColdDishes.css';
+import './Dessert.css';
 
 
 
-export const ColdDishes = () => {
-   const [cold, setCold] = useState([]);
+export const Dessert = () => {
+   const [dessert, setDessert] = useState([]);
 
    useEffect(() => {
       axios
-         .get('http://localhost:5000/food/2')
-         .then(res => setCold(res.data))
+         .get('http://localhost:5000/food/6')
+         .then(res => setDessert(res.data))
          .catch(err => console.log(err))
-   }, [cold])
+   }, [dessert])
 
    return (
       <>
          {
-            cold.length ? (
+            dessert.length ? (
                <ul className='dish-list'>
                   {
-                     cold.map(el => (
+                     dessert.map(el => (
                         <li className='dish-item'>
                            <img className='dish-img' src={`http://localhost:5000/${el.image}`} alt='img' width={132} height={132} />
                            <div className='dish-box'>

@@ -5,17 +5,15 @@ import { useRef } from 'react';
 import axios from 'axios';
 import { useState } from 'react';
 
-export const AddNewDishes = ({ form, setForm }) => {
-
+export const AddNewDishes = ({ setForm }) => {
     const productName = useRef()
     const productBowls = useRef()
     const productPrice = useRef()
     const productSel = useRef()
     const [image, setImage] = useState('');
 
-    async function handleAddProduct(evt) {
-        evt.preventDefault()
-
+    async function handleAddProduct(e) {
+        e.preventDefault()
         const data = new FormData();
 
         data.append('name', productName.current.value);
@@ -30,40 +28,42 @@ export const AddNewDishes = ({ form, setForm }) => {
             data: data,
             headers: { 'Content-Type': 'multipart/form-data' },
         })
-            .then(res => {
+            .then((res) => {
                 if (res.status === 200) {
-                    setForm(false)
+                    return setForm(false);
                 }
-                console.log(res.data);
+                console.log(res);
             })
             .catch((err) => console.log(err));
+
     }
     return (
         <>
             <div className='newDishes__pos'>
                 <div className='newDishes__box'>
                     <h3 className='newDIshes__title'>Add new product item to list</h3>
-                    <form className='newDishes__form' onSubmit={handleAddProduct}>
+                    <form className='newDishes__form'>
                         <Input ref={productName} className="newDishes__input" type="text" placeholder="Product name" name="name" />
                         <Input ref={productBowls} className="newDishes__input" type="text" placeholder="Product bowls" name="bowls" />
                         <Input ref={productPrice} className="newDishes__input" type="number" placeholder="Product price" name="price" />
                         <select ref={productSel} className='newDishes__input'>
                             <option defaultValue="Product category">Product category</option>
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
+                            <option value={'1'}>1</option>
+                            <option value={'2'}>2</option>
+                            <option value={'3'}>3</option>
+                            <option value={'4'}>4</option>
+                            <option value={'5'}>5</option>
+                            <option value={'6'}>6</option>
                         </select>
                         <div>
-                            <input onChange={(evt) => setImage(evt.target.files[0])} type='file' className='newDishes__download' />
+                            <input onChange={(evt) => setImage(evt.target.files[0])} type='file' name='file' id='download' className='newDishes__download' />
                             <img className='down' src={Download} alt="Download" width='36' height='36' />
                             <h4 className='newDishes__downloadTitle'>Click or drag file to this area to upload</h4>
                             <h4 className='newDishes__downloadText'>Support for a single or bulk upload.</h4>
                         </div>
                         <div className='modalbtn-box'>
                             <button className='exit-btn' onClick={() => setForm(false)} type='button'>Cancel</button>
-                            <button onClick={handleAddProduct} className='modal-btn' type='submit'>Add</button>
+                            <button onClick={handleAddProduct} className='modal-btn'>Add</button>
                         </div>
                     </form>
                 </div>
