@@ -1,4 +1,4 @@
-/* .add {
+.add {
   padding: 24px;
 }
 
@@ -41,11 +41,11 @@
   animation: myfood 8s infinite linear;
 }
 @keyframes myfood {
-  0%{
-    transform:  rotate(0deg);
+  0% {
+    transform: rotate(0deg);
   }
-  100%{
-    transform:  rotate(360deg);
+  100% {
+    transform: rotate(360deg);
   }
 }
 
@@ -126,4 +126,4 @@
   color: #ea7c69;
   border: none;
   background-color: transparent;
-} */
+}

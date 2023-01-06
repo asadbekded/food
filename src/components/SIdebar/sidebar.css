@@ -81,23 +81,24 @@
   margin: 0;
   padding: 0;
 }
-.active .icon{
+
+.active .icon {
   color: #fff;
 }
-.active .icon-box{
+.active .icon-box {
   width: 56px;
   height: 55px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #EA7C69;
+  background: #ea7c69;
   box-shadow: 0px 8px 24px #ea7c6952;
   border-radius: 8px;
   /* padding: 16px; */
 }
-.icon{
+.icon {
   color: #ea7c69;
 }
-.bottom-box{
+.bottom-box {
   margin-top: 7px;
 }
