@@ -48,7 +48,7 @@ export const Modal = ({ modal, setModal }) => {
                <form onSubmit={handleFormSubmit}>
                   <div className='form-content'>
                      <label className='modal-label' for='card_name'>Cardholder Name</label>
-                     <Input type='text' className='modal-inp' id='card_name' name='card_name' ref={nameRef} />
+                     <Input type='text' className='modal-inp' id='card_name' name='card_name' placeholder="Cardholder Name" ref={nameRef} />
                   </div>
                   <div className='form-content'>
                      <label className='modal-label' for='card_num'>Card Number</label>
@@ -61,7 +61,7 @@ export const Modal = ({ modal, setModal }) => {
                      </div>
                      <div className='form-content'>
                         <label className='modal-label' for='card_pass'>CVV</label>
-                        <Input type='password' className='modal-inp' id='card_pass' name='card_password' ref={passwordRef} />
+                        <Input type='password' className='modal-inp' id='card_pass' placeholder='**** **** **** ****' name='card_password' ref={passwordRef} />
                      </div>
                   </div>
                   <div className='sel-box'>
@@ -75,7 +75,7 @@ export const Modal = ({ modal, setModal }) => {
                      </div>
                      <div className='form-content'>
                         <label className='modal-label' for='card_table'>Table no.</label>
-                        <Input type='number' className='modal-inp' id='card_table' name='card_table' ref={numRef} />
+                        <Input type='number' className='modal-inp' placeholder='140' id='card_table' name='card_table' ref={numRef} />
                      </div>
                   </div>
 

@@ -1,6 +1,6 @@
 import { NavLink, Route, Routes } from 'react-router-dom';
-import { DishCard } from '../DishCard';
 import './FoodFilter.css';
+// import PuffLoader from 'react-spinners/PuffLoader'
 
 export const FoodFilter = () => {
    return (
@@ -8,32 +8,32 @@ export const FoodFilter = () => {
          <header className='foodfilter-header'>
             <ul className='foodfilter-list'>
                <li className='product-item'>
-                  <NavLink className={({ isActive }) => isActive ? "product-act" : "product-link"} to="/">
+                  <NavLink className={({ isActive }) => isActive ? "product-act" : "product-link"} to='/'>
                      Hot Dishes
                   </NavLink>
                </li>
                <li className='product-item'>
-                  <NavLink className={({ isActive }) => isActive ? "product-act" : "product-link"} to="/coldDishes">
+                  <NavLink className={({ isActive }) => isActive ? "product-act" : "product-link"} to='/cold-dishes'>
                      Cold Dishes
                   </NavLink>
                </li>
                <li className='product-item'>
-                  <NavLink className={({ isActive }) => isActive ? "product-act" : "product-link"} to="/soup">
+                  <NavLink className={({ isActive }) => isActive ? "product-act" : "product-link"} to='/soup'>
                      Soup
                   </NavLink>
                </li>
                <li className='product-item'>
-                  <NavLink className={({ isActive }) => isActive ? "product-act" : "product-link"} to="/grill">
+                  <NavLink className={({ isActive }) => isActive ? "product-act" : "product-link"} to='/grill'>
                      Grill
                   </NavLink>
                </li>
                <li className='product-item'>
-                  <NavLink className={({ isActive }) => isActive ? "product-act" : "product-link"} to="/appetizer">
+                  <NavLink className={({ isActive }) => isActive ? "product-act" : "product-link"} to='/appetizer'>
                      Appetizer
                   </NavLink>
                </li>
                <li className='product-item'>
-                  <NavLink className={({ isActive }) => isActive ? "product-act" : "product-link"} to="/dessert">
+                  <NavLink className={({ isActive }) => isActive ? "product-act" : "product-link"} to='/desert'>
                      Dessert
                   </NavLink>
                </li>
@@ -47,16 +47,6 @@ export const FoodFilter = () => {
                </select>
             </div>
          </header>
-         <div>
-            <Routes>
-               <Route index element={<DishCard />} />
-               <Route path="/coldDishes" element={<h2>Cold dishes menu</h2>} />
-               <Route path="/soup" element={<h2>Soup menu</h2>} />
-               <Route path="/grill" element={<h2>Grill menu</h2>} />
-               <Route path="/appetizer" element={<h2>Appetizer menu</h2>} />
-               <Route path="/dessert" element={<h2>Dessert menu</h2>} />
-            </Routes>
-         </div>
       </>
    )
 }
